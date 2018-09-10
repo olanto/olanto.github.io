@@ -1,0 +1,4 @@
+- LSF (imsi)
+- comité
+- myprep ubuntu 12->18
+- menu en français

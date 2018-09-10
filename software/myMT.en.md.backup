@@ -1,0 +1,72 @@
+---
+title: "myMT"
+author: "Olanto"
+
+---
+
+myMT is an automatic translation tool based on [Moses](https://www.statmt.org/moses/), i.e. the open-source statistical translation software. A demonstration version is available here ([Demo](http://srv2.olanto.org/WebTranslator/)) (the demonstration is based on The United Nations' Multilingual Parallel Text 2000-2009 , English/French).<!--more-->
+
+myMT is composed of two parts: the translation servers (back-end) and the management server (front-end). The translation models are stored on the translation servers that are responsible for the translation. The management server is responsible for the division into sentences of texts to be translated and manages the translations depending on the languages.
+
+myMT makes possible the construction of complex infrastructures that have numerous translation servers enabling the simultaneous translation of several sentences at once and the management of several language pairs. The specification of the configuration is done in one XML file. The start-up and the maintenance are automated.
+
+myMT provides a graphical interface accessible with a browser that enables the user to select translation languages, to select (or download) the text to be translated. The outcome of the translation can be sent by e-mail.
+
+myMT converts the documents into texts for the translation. It is also compatible with the translation of .docx documents while preserving the page layout. It is also possible to use it with .sdlxliff.
+
+The translation server may also be used to build new translation models. myPREP can be used to create the training corpora.
+
+myMT is available both for Windows and for GNU/Linux (Ubuntu); please find the links to the respective installation files below. As for the sources, they are the same for both versions.
+ 
+
+##Online demonstration
+try [this](http://srv3.olanto.org/WebTranslator/)
+
+
+##Downloads
+ 
+### myMT 3.0 for Windows and GNU/Linux
+(tested on Windows 7, Windows 2008 Server, Ubuntu 14.04 LTS)
+
+The myMT-Front-End installation files can be downloaded [here](http://srv3.olanto.org/download/myMT/MYMT.zip) (65 Mo).
+    SHA1 ke: a9eae820564b1d66517d830cd37692e8
+     
+The myMT-Back-End installation files can be downloaded [here](http://srv3.olanto.org/download/myMT.14/back-end-3.0.1.tar.gz) (153 Mo).
+    SHA1 key: 484aa81da392e0ed3c17b7e5071ce2113981f271
+
+
+
+### Tools for Windows
+
+The Java, Tomcat and OpenOffice applications are to be downloaded [here](http://srv3.olanto.org/download/win/install/Tools.zip) (232 Mb). Please use only these distribution of the applications so as to make sure you have the required version.
+
+SHA1 key: 2B7DE1A6590E04B241A679451952256834A6C21B
+
+### Tools for Linux
+
+The OpenOffice file is to be downloaded [here](http://srv3.olanto.org/download/linux/install/Apache_OpenOffice_incubating_3.4.0_Linux_x86-64_install-deb_en-US.tar.gz) (171 Mb). Please use only this distribution of the application so as to make sure you have the required version
+
+SHA1 key: 2B8071CF3F26C202BB7B0BE1AFD5DC2F21221614
+
+## Documentation
+Installation of myMT
+
+myMT-Front-End for Windows  (prerequisites [here](http://srv3.olanto.org/download/myMT/documentation/prerequise_window_install.pdf))
+
+The procedure to perform a standard installation of myMT-Front-End on a dedicated server running Windows is described  [here](http://srv3.olanto.org/download/myMT/documentation/Installing_Front-End_Server_V2.0.pdf).
+
+myMT-Front-End for GNU/Linux  (prerequisites  [here](http://srv3.olanto.org/download/myMT/documentation/prerequise_linux_install.pdf))
+
+The procedure to perform a standard installation of myMT-Front-End on a dedicated server running Ubuntu 12.04 LTS is described [here](http://srv3.olanto.org/download/myMT/documentation/Installing_Front-End_Server_V2.0.pdf).
+
+myMT-Back-End for GNU/Linux
+
+The procedure to perform a standard installation of myMT-Back-End on a dedicated server running Ubuntu 14.04 LTS is described  [here](http://srv3.olanto.org/download/myMT/documentation/Installing_Back-End_Server_V2.0_14.04.pdf).
+
+
+## source & licence
+
+Licence AGPL v3 - sources [@GitHub](https://github.com/olanto/MYMT)
+
+
+

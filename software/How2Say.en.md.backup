@@ -1,0 +1,46 @@
+---
+title: "myCAT"
+author: "Olanto"
+
+---
+
+
+How2Say is a terminological exploring tool for multilingual corpora. 
+<!--more-->
+It allows to find for a given expression such as Pommes de terre:
+the super terms « fécule de pomme de terre »
+translation propositions for a target language « potatoes »
+eventually some synonyms « papas (ES) »
+How2Say works only with the terms used in the corpora. Consequently, it gives the most exact description of the terminological usage within a specific organization and/or a specific domain.
+How2Say uses the corpora that can be aligned using the tools of myPREP from the Olanto Suite.
+
+## Demo
+
+Two demos are available:
+
+* based on the DGT 2014 corpora of the european committee  (see [corpus]()https://ec.europa.eu/jrc/en/language-technologies/dgt-translation-memory) containing 85 million sentences from 24 languages.
+* based on the UN corpora (MultiUN: A Multilingual corpus from United Nation Documents, Andreas Eisele and Yu Chen, [LREC 2010](https://www.dfki.de/lt/publication_show.php?id=4790)) containing 65 million sentences from 7 languages.
+
+Start  [How2Say-MULTI-UN](https://88.127.130.21:5556/How2Say/how2say?query=pommes%20d%20terre&langso=FR&langta=EN)
+
+Start  [How2Say-DGT2014](https://88.127.130.21:4444/How2Say/how2say?query=pommes%20d%20terre&langso=FR&langta=EN)
+	
+![copyscreen](/static/how2saydemo.png)
+
+## Downloads
+
+How2Say for Windows, 64-bit version
+(tested on Windows 7 and Windows 2008 Server)
+
+The How2Say installation files can be downloaded  [here](http://srv3.olanto.org/download/HOW2SAY/update-1.1/HOW2SAY.zip) (275 Mb).
+
+SHA1 key: 0db9dfef092a160523a1d62c5a7278399e0ff893
+
+## Documentation
+
+The procedure to perform a standard installation of How2Say on a dedicated server running Windows is described [here](https://olanto.github.io/docs/Installing_How2Say_V1.1_EN.pdf).
+    
+
+## source & licence
+
+Licence AGPL v3 - sources [@GitHub](https://github.com/olanto/HOW2SAY)

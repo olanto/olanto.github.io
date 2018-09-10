@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foundations on Olanto Foundation</title>
+    <link>http://example.org/foundation/</link>
+    <description>Recent content in Foundations on Olanto Foundation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://example.org/foundation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Communication</title>
+      <link>http://example.org/foundation/communication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/foundation/communication/</guid>
+      <description>&lt;p&gt;Communications about Olanto&amp;rsquo;s projects&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;AsLing 36 - 2014  on terminology  (&lt;a href=&#34;http://srv3.olanto.org/download/presentation/Asling-2014.pdf&#34;&gt;EN document pdf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;ToTh - 2015  on terminology explorer (&lt;a href=&#34;http://srv3.olanto.org/download/presentation/how2say%20terminogy%20explorer%20TOTh2015.pdf&#34;&gt;FR document pdf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;TAO - 2015  on alignement (&lt;a href=&#34;http://srv3.olanto.org/download/presentation/Olanto-Alignement%20TAO2015.pdf&#34;&gt;FR document pdf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;DTT - 2016  on terminology (&lt;a href=&#34;http://srv3.olanto.org/download/presentation/Terminology%20Management-%20New%20Perspectives%20Symp-DTT-2016.pdf&#34;&gt;EN document pdf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;WIPO - 2017  on automatic classification (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/AutomaticCategorization2017.pdf&#34;&gt;EN document pdf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;ICSDV 2018  on automatic classification (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/IPCCAT_ICSDV_2018.pdf&#34;&gt;EN document pdf&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://example.org/foundation/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/foundation/contact/</guid>
+      <description>&lt;p&gt;Informations to contact Olanto&lt;/p&gt;
+
+&lt;h2 id=&#34;mail&#34;&gt;Mail&lt;/h2&gt;
+
+&lt;p&gt;If you wish to contact Olanto please send an email to jacques@olanto.org&lt;/p&gt;
+
+&lt;h2 id=&#34;address&#34;&gt;Address&lt;/h2&gt;
+
+&lt;p&gt;The Olanto Foundation&lt;/p&gt;
+
+&lt;p&gt;10 Chemin de Champ-Claude&lt;/p&gt;
+
+&lt;p&gt;1214 Vernier (Geneva)&lt;/p&gt;
+
+&lt;p&gt;Switzerland&lt;/p&gt;
+
+&lt;h2 id=&#34;identification&#34;&gt;Identification&lt;/h2&gt;
+
+&lt;p&gt;Swiss federal identification number: CH-660.1.763.012-1&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Foundation</title>
+      <link>http://example.org/foundation/foundation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/foundation/foundation/</guid>
+      <description>&lt;p&gt;Olanto is a not-for-profit Foundation managed under the Swiss law. Its headquarters are in Geneva, Switzerland but the Foundation is placed under the responsibility of the Swiss Confederation, to which it ultimately reports.&lt;/p&gt;
+
+&lt;p&gt;Olanto is managed by a Foundation Board, which is helped by a Support Committee and a Committee of Experts.&lt;/p&gt;
+
+&lt;p&gt;Olanto aims at creating and distributing free software in the field of Computer-Assisted Translation (CAT), Machine Translation (MT), multilingual search and other language-related fields. Olanto is an acronym which stands for &amp;ldquo;Open Language Tools&amp;rdquo;.&lt;/p&gt;
+
+&lt;h2 id=&#34;foundation-board&#34;&gt;Foundation Board&lt;/h2&gt;
+
+&lt;h3 id=&#34;static-jacques-jpg-dr-jacques-guyot&#34;&gt;&lt;img src=&#34;http://example.org/static/jacques.jpg&#34; alt=&#34;&#34; /&gt; Dr. Jacques Guyot&lt;/h3&gt;
+
+&lt;p&gt;Jacques is a senior computer scientist with over 20 years of experience in turning break-through technologies into professional solutions. He is also a researcher at the University of Geneva. He holds a PhD in Computer Sciences from the University of Geneva.&lt;/p&gt;
+
+&lt;h3 id=&#34;static-karim-jpg-karim-benzineb&#34;&gt;&lt;img src=&#34;http://example.org/static/karim.jpg&#34; alt=&#34;&#34; /&gt;  Karim Benzineb&lt;/h3&gt;
+
+&lt;p&gt;Karim is a translator and a computational linguist. He has over 12 years of experience in designing and deploying CAT tools for Translation Services and LSPs. He holds translation and computational linguistics degrees as well as an MBA from the University of Geneva.&lt;/p&gt;
+
+&lt;h3 id=&#34;static-alexandre-jpg-alexandre-poltorak&#34;&gt;&lt;img src=&#34;http://example.org/static/alexandre.jpg&#34; alt=&#34;&#34; /&gt;      Alexandre Poltorak&lt;/h3&gt;
+
+&lt;p&gt;Alexandre is the founder of a company called &lt;a href=&#34;https://www.alsenet.com/&#34;&gt;Alsenet&lt;/a&gt; and he is the vice-president of the &lt;a href=&#34;https://free-it-foundation.org/&#34;&gt;Free IT Foundation&lt;/a&gt; in Geneva. He is also Marketing Director of a US company called &lt;a href=&#34;https://www.elphel.com/&#34;&gt;Elphel Inc.&lt;/a&gt; which builds cameras and combines free software and open hardware.&lt;/p&gt;
+
+&lt;h3 id=&#34;static-gilles-jpg-prof-gilles-falquet&#34;&gt;&lt;img src=&#34;http://example.org/static/gilles.jpg&#34; alt=&#34;&#34; /&gt;         Prof. Gilles Falquet&lt;/h3&gt;
+
+&lt;p&gt;Gilles is a professor and researcher at the Centre for Computer Sciences of the University of Geneva. His research is centered around the issue of &amp;ldquo;accessing knowledge&amp;rdquo; and its focus includes knowledge-based indexing and information retrieval. Gilles holds a PhD in computer science from the University of Geneva.&lt;/p&gt;
+
+&lt;h2 id=&#34;olanto-consultants&#34;&gt;Olanto Consultants&lt;/h2&gt;
+
+&lt;h3 id=&#34;static-nizar-jpg-dr-nizar-ghoula&#34;&gt;&lt;img src=&#34;http://example.org/static/nizar.jpg&#34; alt=&#34;&#34; /&gt; Dr. Nizar Ghoula&lt;/h3&gt;
+
+&lt;p&gt;Nizar (Senior Java/GWT developer) holds a PhD in Information Systems from the University of Geneva (Switzerland). His fields of interest include the semantic web, knowledge representation, Information retrieval and ontology alignment. A very good Java/GWT developer, he is an active contributor to Olanto&amp;rsquo;s development effort.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
