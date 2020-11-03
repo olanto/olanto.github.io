@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html class="nojs" lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+<title>myMT – Olanto Fondation</title>
+<meta name="created" content="0001-01-01T00:00:00&#43;0000">
+<meta name="modified" content="0001-01-01T00:00:00&#43;0000">
+<meta name="author" content="Olanto">
+<meta name="description" content="&lt;p&gt;myMT est un outil de traduction automatique basé sur le logiciel libre de traduction statistique &lt;a href=&#34;https://www.statmt.org/moses/&#34;&gt;Moses&lt;/a&gt;. Une démonstration est accessible ici (&lt;a href=&#34;http://srv2.olanto.org/WebTranslator/&#34;&gt;Demo&lt;/a&gt;) (la démonstration est basée sur le corpus Textes parallèles multilingues 2000-2009 des Nations Unies  anglais/français).&lt;/p&gt;">
+<meta property="og:site_name" content="Olanto Fondation">
+<meta property="og:title" content="myMT">
+<meta property="og:url" content="http://example.org/fr/software/mymt/">
+
+<meta name="generator" content="Hugo 0.48" />
+
+<link rel="canonical" href="http://example.org/fr/software/mymt/">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/print.css" media="print">
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "myMT",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "0001-01-01T00:00:00Z",
+    "url" : "http://example.org/fr/software/mymt/",
+    "description": "\u003cp\u003emyMT est un outil de traduction automatique basé sur le logiciel libre de traduction statistique \u003ca href=\"https://www.statmt.org/moses/\"\u003eMoses\u003c/a\u003e. Une démonstration est accessible ici (\u003ca href=\"http://srv2.olanto.org/WebTranslator/\"\u003eDemo\u003c/a\u003e) (la démonstration est basée sur le corpus Textes parallèles multilingues 2000-2009 des Nations Unies  anglais/français).\u003c/p\u003e",
+    "author": {
+      "@type": "Person",
+      "name": "Olanto"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http://example.org/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Olanto Fondation",
+      "url": "http://example.org/",
+    }
+  }
+</script>
+
+</head>
+
+<body>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header" role="banner">
+<a href="/fr/" title="Home" rel="home" class="header__logo"><img src="/images/logo.png" alt="Home" class="header__logo-image"></a>
+<h1 class="header__site-name">
+<a href="/fr/" title="Home" class="header__site-link" rel="home"><span>Olanto Fondation</span></a>
+</h1>
+<div class="region header__region">
+<h2 class="visually-hidden">Language selector</h2>
+<nav class="language-selector layout__language-selector" role="navigation">
+<ul class="navbar">
+
+<li><a rel="alternate" href="/software/mymt/" hreflang="en" lang="en">English</a></li>
+</ul>
+</nav>
+
+
+</div>
+</header>
+
+
+
+
+<nav class="main-menu layout__navigation" role="navigation">
+<h2 class="visually-hidden">Main menu</h2>
+<ul class="navbar">
+<li><a class="" href="/fr/">Home</a></li>
+<li><a class="" href="/fr/foundation/">Foundations</a></li>
+<li><a class="active" href="/fr/software/">Softwares</a></li>
+</ul>
+</nav>
+
+
+<main class="main layout__main" role="main">
+<h1 class="title ">myMT</h1>
+<article class="section-software single-view">
+<header>
+</header>
+<div class="content">
+<p>myMT est un outil de traduction automatique basé sur le logiciel libre de traduction statistique <a href="https://www.statmt.org/moses/">Moses</a>. Une démonstration est accessible ici (<a href="http://srv2.olanto.org/WebTranslator/">Demo</a>) (la démonstration est basée sur le corpus Textes parallèles multilingues 2000-2009 des Nations Unies  anglais/français).</p>
+
+<p>myMT est composé de deux parties : les serveurs de traduction (back-end) et le serveur de gestion (front-end).  Sur les serveurs de traduction sont stockés les modèles de traduction et assurent la traduction. Le serveur de gestion assure le découpage en phrase des textes à traduire et gère les traductions en fonction des langues.</p>
+
+<p>myMT permet de construire des infrastructures complexe possédant de nombreux serveurs de traduction permettant de traduire simultanément plusieurs phrases à la fois et de gérer plusieurs couple de langues. La spécification de la configuration est faite dans un seul fichier XML. Le démarrage et la maintenance est automatisée.</p>
+
+<p>myMT met à disposition une interface graphique accessible avec un navigateur qui permet à l’utilisateur de sélectionner les langues de la traduction, de sélectionner (ou télécharger) le texte à traduire. Le résultat de la traduction peut être retourné par email.</p>
+
+<p>myMT convertit les documents en texte pour la traduction. Il supporte aussi la traduction de document .docx en préservant la mise en page. Il est aussi possible de l’utiliser avec .sdlxliff.</p>
+
+<p>Le serveur de traduction peut aussi être utilisé pour construire de nouveaux modèles de traduction. myPREP peut être utilisé pour créer les corpus d’entrainement.</p>
+
+<p>myMT peut être installé aussi bien sous Windows que sous GNU/Linux (Ubuntu); les liens correspondants sont proposés ci-dessous. Quant aux sources, elles sont identiques pour les deux versions.</p>
+
+<h2 id="online-demonstration">Online Demonstration</h2>
+
+<p>Essayez <a href="http://srv3.olanto.org/WebTranslator/">ceci</a></p>
+
+<h2 id="téléchargement">Téléchargement</h2>
+
+<h3 id="mymt-3-0-pour-windows-et-gnu-linux">myMT 3.0 pour Windows et GNU/Linux</h3>
+
+<p>(testé sur Windows 7,8, Windows 2008 Server, Ubuntu 14.04 LTS)</p>
+
+<p>Les fichiers d&rsquo;installation de myMT-Front-End peuvent être téléchargé <a href="http://srv3.olanto.org/download/myMT/MYMT.zip">ici</a> (65 Mo).
+    SHA1 ke: a9eae820564b1d66517d830cd37692e8</p>
+
+<p>Les fichiers d&rsquo;installation de myMT-Back-End peuvent être téléchargés <a href="http://srv3.olanto.org/download/myMT.14/back-end-3.0.1.tar.gz">ici</a> (153 Mo).
+    SHA1 key: 484aa81da392e0ed3c17b7e5071ce2113981f271</p>
+
+<h3 id="outils-pour-windows">Outils pour Windows</h3>
+
+<p>The Java, Tomcat et OpenOffice peuvent être téléchargé <a href="http://srv3.olanto.org/download/win/install/Tools.zip">ici</a> (232 Mb).</p>
+
+<p>SHA1 key: 2B7DE1A6590E04B241A679451952256834A6C21B</p>
+
+<h3 id="outils-pour-linux">Outils pour Linux</h3>
+
+<p>The OpenOffice peut être téléchargé <a href="http://srv3.olanto.org/download/linux/install/Apache_OpenOffice_incubating_3.4.0_Linux_x86-64_install-deb_en-US.tar.gz">ici</a> (171 Mb).</p>
+
+<p>SHA1 key: 2B8071CF3F26C202BB7B0BE1AFD5DC2F21221614</p>
+
+<h2 id="documentation">Documentation</h2>
+
+<p>Installationde myMT</p>
+
+<p>myMT-Front-End pour Windows   (prerequisites <a href="http://srv3.olanto.org/download/myMT/documentation/prerequise_window_install.pdf">ici</a>)</p>
+
+<p>La procédure permettant d&rsquo;effectuer une installation classique de myMT-Front-End sur un serveur dédié équipé de Windows est décrite  <a href="http://srv3.olanto.org/download/myMT/documentation/Installing_Front-End_Server_V2.0.pdf">ici</a>.</p>
+
+<p>myMT-Front-End pour GNU/Linux  (prerequisites  <a href="http://srv3.olanto.org/download/myMT/documentation/prerequise_linux_install.pdf">ici</a>)</p>
+
+<p>myMT-Front-End pour GNU/Linux  (prérequis ici, en anglais)</p>
+
+<p>La procédure permettant d&rsquo;effectuer une installation classique de myMT-Front-End sur un serveur dédié équipé de Ubuntu 12.04 LTS est décrite <a href="http://srv3.olanto.org/download/myMT/documentation/Installing_Front-End_Server_V2.0.pdf">ici</a>.</p>
+
+<p>myMT-Back-End for GNU/Linux</p>
+
+<p>La procédure permettant d&rsquo;effectuer une installation classique de myMT-Back-End sur un serveur dédié équipé de Ubuntu 14.04 LTS est décrite <a href="http://srv3.olanto.org/download/myMT/documentation/Installing_Back-End_Server_V2.0_14.04.pdf">here</a>.</p>
+
+<h2 id="source-licence">source &amp; licence</h2>
+
+<p>Licence AGPL v3 - sources <a href="https://github.com/olanto/MYMT">@GitHub</a></p>
+
+</div>
+</article>
+</main>
+
+
+
+<aside class="sidebar layout__second-sidebar" role="complementary">
+<section>
+<h4 class="menu"><a class="" href="/fr/foundation/">Foundations</a></h4>
+<ul class="menu">
+<li><a class="" href="/fr/foundation/communication/">Communication</a></li>
+<li><a class="" href="/fr/foundation/contact/">Contact</a></li>
+<li><a class="" href="/fr/foundation/foundation/">Fondation</a></li>
+</ul>
+</section>
+<section>
+<h4 class="menu"><a class="" href="/fr/software/">Softwares</a></h4>
+<ul class="menu">
+<li><a class="" href="/fr/software/education/">Education</a></li>
+<li><a class="" href="/fr/software/how2say/">How2Say</a></li>
+<li><a class="" href="/fr/software/overview/">Vue d&#39;ensemble</a></li>
+<li><a class="" href="/fr/software/mycat/">myCAT</a></li>
+<li><a class="" href="/fr/software/myclass/">myCLASS</a></li>
+<li><a class="active" href="/fr/software/mymt/">myMT</a></li>
+<li><a class="" href="/fr/software/myprep/">myPREP</a></li>
+<li><a class="" href="/fr/software/myterm/">myTERM</a></li>
+</ul>
+</section>
+</aside>
+
+
+<footer class="footer layout__footer" role="contentinfo">
+<p><span>© Olanto Fondation</span></p>
+
+
+</footer>
+
+</div>
+
+
+
+</body>
+</html>

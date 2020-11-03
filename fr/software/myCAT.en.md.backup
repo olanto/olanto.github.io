@@ -1,0 +1,399 @@
+---
+title: "myCAT"
+author: "Olanto"
+
+---
+
+myCAT is a concordancer, i.e. a full-text search engine which, in addition to showing the relevant documents, also shows their translation (if they were previously translated) and automatically aligns the source and target language versions on the occurrences of the terms which is being searched.<!--more-->
+
+myCAT includes two modules:
+
+* a Text Aligner
+* a Quote Detector
+
+The Text Aligner displays and automatically aligns the source language and the target language versions of a given document.
+
+The Quote Detector compares a document to be translated with the complete corpus of previously-translated documents and detects all parts of sentences (or full sentences or paragraphs) which may be quoted from other documents. It then displays and aligns the source and target versions of that reference document.
+
+What makes myCAT unique is that its automatic alignment feature is based on alignment maps which are built with [Moses](https://www.statmt.org/moses/), a Statistical Machine Translation engine. myCAT can be used in any language combination; if no alignment map was built for a given language pair, a geometrical alignment algorithm will be used by default.
+ 
+
+## Online demonstration Demo
+
+Before using the demo, it is strongly suggested to read the tips below.
+The demo is available at: [demo](http://srv3.olanto.org/TranslationText).
+ 
+ 
+### Interface language !
+We have a dynamic approach to integrate new languages for the Graphical User Interface of myCAT. We have all the interface's components in 5 languages (en, fr, ar, es, ru). If you think that you can add a new language for the interface please contact (link sends e-mail) us and we will guide you for its integration in the tool.
+
+
+### Quick Start!
+If you just want to take a quick look at how myCAT works, the simplest way is to test the Text Aligner and the Quote Detector.
+
+
+### Read me first!
+If you would like to test myCAT, here are a few items you should read first:
+ 
+
+Supported Browsers: Although myCAT was developed with Google's GWT technology which theoretically enables it to support most browsers, it is strongly advised to use a recent version of Chrome, Mozilla Firefox or Internet Explorer. 
+
+An online User Manual is available by clicking on the HELP button; this document details how to use myCAT so it is strongly recommended to read it before testing out the application.
+ 
+The demo version of myCAT is built on a corpus which includes over a million documents, over 10 million different words indexed and 25 languages. This corpus essentially comes from the following sources: The United Nations' [Multilingual Parallel Text 2000-2009  ](https://www.euromatrixplus.net/multi-un/)and the [European Commission's JRC-Acquis](https://langtech.jrc.it/JRC-Acquis.html).
+
+#### Testing the Text Aligner
+Define your language pair in the scroll-down menus (Ex: EN-FR means English to French). The 2-letter language codes are compliant with the ISO 639-1 standard.
+ 
+Type any word or expression in your source language (in this example: English) in the text field.
+ 
+Click on the GO button or hit the ENTER key.
+ 
+Click on any document in the Hit List. The term which was entered will be highlighted in the relevant document and the target version will be displayed and automatically aligned.
+ 
+You can navigate from a hit term to the next or previous one by clicking on the << or >> button.
+ 
+You can use the vertical scroll bar to navigate within the displayed document. At any time you can double-click a word in that text and then click on the "Align" button to see the other language version's relevant part of the text.
+ 
+You can use the "Search" button to perform a new search in the displayed document (in case it contains a lot of interesting terminology, for example).
+ 
+The documents displayed in the Text Aligner are a plain text conversion of the original documents (which are typically in MS-Word or PDF format). The "Original" button normally allows viewing the file in its original format. However in this demo only the documents from the "Small Collection" can be viewed in their original format. Thus if you want to test the Original button, please first click on the Collection button, choose the "Small Collection" and click on "Set Selection". Thus all the hit documents you will find will come from that collection and will be viewable in original format.
+
+#### Testing the Quote Detector
+Click on the "Quote Detector" button.
+ 
+Define your language pair in the scroll-down menus.
+ 
+Click on the "Browse" button to upload the document you want to be analyzed. A test document, to be analyzed from English to French, can be downloaded here.
+Note: in the demo version the documents to be analyzed by the Quote Detector are truncated after 3'000 characters.
+ 
+Click on the GO button. The resulting analyzed document is displayed in the central frame; statistics on the analysis results are appended at the end of the analyzed document.
+
+
+##Downloads
+
+### myCAT 4.1.0 for Windows, 64-bit version
+(tested on Windows 7,8,10 and Windows 2008,2016 Server)
+The myCAT installation files can be downloaded [here](http://srv3.olanto.org/download/myCAT/update-4.1.0/myCAT.zip) (275 Mb).
+
+SHA1 key: 5adc2f8a5e8819e9d4c035a5b907c7996416dd23
+
+#### Tools
+
+The Java, Tomcat and OpenOffice applications are to be downloaded:
+*  [java 7, tomcat 7](http://srv3.olanto.org/download/win/install/Tools7.zip) (238 Mb) - sha1 :2B7DE1A6590E04B241A679451952256834A6C21B.
+*  [java 8, tomcat 8](http://srv3.olanto.org/download/win/install/Tools8.zip) (308 Mb) - sha1 :1968eb32f0fd56e9a811662e5d16770e7b993481.
+*  [java 10, tomcat 9](http://srv3.olanto.org/download/win/install/Tools10.zip) (555 Mb) - sha1 :
+c4e40feefc821425c9ab2d0064daed0862c447d8.
+
+In this file, you find batch for [tomcat 7,8,9](http://srv3.olanto.org/download/win/install/run789.zip) (1 Mb) - sha1 : 9a023005a810a2c7541c6a56a86abb30db7530f2
+ 
+Please use only these distribution of the applications so as to make sure you have the required version.
+
+The procedure to perform a standard installation of myCAT on a dedicated server running Windows is described [generic doc](http://srv3.olanto.org/download/win/install/myCAT2.1.03.zip).
+
+
+### myCAT 4.1.0 for GNU/Linux, 64-bit version
+(tested on Ubuntu 12,14,16,& 18.04 LTS)
+The myCAT installation files can be downloaded [here](http://srv3.olanto.org/download/myCAT/update-4.1.0/myCAT-linux.zip) (292 Mb).
+
+SHA1 key: 90277bd5a7d0c36e7acd2a09695f34579402c763
+
+### Tools
+The OpenOffice file is to be downloaded [here](http://srv3.olanto.org/download/linux/install/Apache_OpenOffice_incubating_3.4.0_Linux_x86-64_install-deb_en-US.tar.gz) (171 Mb). Please use only this distribution of the application so as to make sure you have the required version.
+
+SHA1 key: 2B8071CF3F26C202BB7B0BE1AFD5DC2F21221614
+
+The procedure to perform a standard installation of myCAT on a dedicated server running Ubuntu 18.04 LTS is described [here](http://srv3.olanto.org/download/documentation/myCat_Linux_install 18.04.pdf).
+
+
+### Additional Alignment Maps
+myCAT originally comes with the following alignment maps: English-Arabic, English-French, English-Portuguese, English-Russian, English-Spanish. It is possible to add the following language pairs:
+
+English-German [here](http://srv3.olanto.org/download/maps/ENDE.zip)
+English-Chinese [here](http://srv3.olanto.org/download/maps/ENZH.zip)
+
+### Adding Alignment Maps
+myCAT originally comes with the following alignment maps:
+
+* English-Arabic
+* English-French
+* English-Portuguese
+* English-Russian
+* English-Spanish
+
+It is possible to add the following language pairs:
+* English-German
+* English-Chinese(experimental, all comments welcome)
+
+Simply download them and unzip them to:
+* for Windows:  C:\MYCAT\map
+* for GNU/Linux:  ~/MYCAT/map
+
+
+### Document Naming Rules
+The corpus of bi-text documents to be used with [myMT](/software/myMT.en.md) should comply with the [following specifications](http://srv3.olanto.org/download/documentation/myCAT_doc_specs.pdf).
+This myMT distribution comes with a very small test corpus of 48 documents allowing to test the following six languages: English, French, Spanish, Arabic, Russian and Chinese. These documents are organized in three collections: UNO, WIPO and WTO. They are all public documents which were downloaded from those organization's websites.
+
+
+
+
+## changelog
+
+This document details the bug fixes and improvements in each new release of the myPREP software.
+
+#### Version 4.1.0 date 10-5-2018
+
+* Start myCAT from a URL with query in parameter
+http://localhost:8080/TranslationText?searchquery="report"
+
+#### Version 4.0.15 Date: 7-3- 2017
+
+New Features relating to the overall suite myCAT
+
+* WebService to Call Quote Detector  
+* WebService to Merge Quote Detection with different profiles into the same documents
+* Improve accuracy of Quote Detector (remove stop words)
+
+
+#### Version 3.7.0 Date: 10 -1- 2016
+
+New Features relating to the overall suite myCAT
+
+* Add a checkbox ‘Rem First’ into QD to remove first reference.
+* Add a checkbox ‘Fast’ into QD to improve the quality of references (check=fast, uncheck=accurate).
+* Open QD from an URL (http://localhost:8080/TranslationText?QDfile=C:/MYCAT/corpus/reftest/Doc_EN_XXX_Refdoc.html)
+* Improve initial load of ZIP Cache (new parameter IDX_ZIP_CACHE_FASTLOAD)
+* Improve accuracy of Quote Detector (new parameter REALREF_MAX_CHECK)
+* Improve performance of Quote Detector (new parameter REF_MAX_THREAD)
+* Accept file renaming (Only for Windows) (new parameter FILE_RENAME, FILE_COLLECTION_CASE, FILE_NAME_CASE, FILE_EXTENTION_CASE)
+* Accept to rename the “Glossaries” folder (new parameter GLOSS_NAME)
+* Improve detection of abbreviation
+
+#### Version 3.3.0 Date: October 17th 2014
+
+New Features relating to the overall suite myCAT
+
+* Fixed a bug for the EXACT CLOSE query calculation
+* Fixed a bug in cache management anb objects identification
+* Added a resize button to the interface of the Bitext Aligner called from externat application
+ 
+
+#### Version 3.2.4 Date: July 7th 2014
+
+New Features relating to the overall suite myCAT
+
+* Fixed a filtering problem with aglutinative lanugages
+* Fixed a bug for exact queries that created highlight problems: stop words were not taken into consideration
+ 
+
+#### Version 3.2.3 Date: May 24th 2014
+
+New Features relating to the overall suite myCAT
+
+* Enhanced features for highlighting exact expressions (more precise documents and more precise highlights)
+* Fixed a filtering problem with arabic language into query field
+* Fixed a filtering problem in the query field with the special characters: '_', '/' and '-'
+ 
+#### Version 3.2.2 Date: April 24th 2014
+
+New Features relating to the overall suite myCAT
+
+* New querying possibilities: Accept wildChar (only one fuzzy term) in a multi-term expression at any position (like: global* economic)
+* New querying possibilities: Accept CLOSE between two exact expressions (like: "global" CLOSE "reporting")
+* Improved line segmentation (5 times faster)
+* Normalized query field with the same replaceChar than line segmentation
+* Fixed a filtering problem into query field (Keep char with accent or Chinese char)
+ 
+
+#### Version 3.2.1 Date: April 14th 2014
+
+New Features relating to the overall suite myCAT
+
+* Fixing tokenization problems
+* Adding filters for queries to remove special characters
+ 
+
+#### Version 3.1.1 Date: March 21st 2014
+
+New Features relating to the overall suite myCAT
+
+* Fixing the bug of exact expressions when highlighting results within the displayed documents.
+* Faster version of alignment computing for very large documents (> 20'000 paragraphs).
+* Adapting text direction automatically depending on the language (e.g. AR)
+* Adapting regular expressions for the exact matching.
+* Fixing double call of aligned documents when clicking on a document.
+ 
+#### Version 3.1.0 Date: February 2nd 2014
+
+New Features relating to the overall suite myCAT
+
+* Fixing the bug of loss focus in Firefox and Chrome when highlighting results within the displayed documents.
+* Updating docx and pdf converters with the latest libreries.
+* Improved alignment for very large documents (> 20'000 paragraphs).
+* Dynamic resize of the Graphical User Interface to be adapted automatically to the client's monitor or browser's dimentions.
+* Removing extra blanks for chinese when displaying the document's content.
+
+New Features in the Text Aligner
+
+* Adding new parameters or regular expression, special characters and respect Case for the exact matching.
+* Adding a new feature for a better tokenization of the query (removing or normalizing special characters).
+* Fixing stop words highlighting in exact queries
+ 
+#### Version 2.4.01 Date: November 26th 2013
+
+New Features relating to the overall suite myCAT
+
+* Improved alignment for very large documents.
+* Bug fix for Glossaries.
+* Load txt from a zip.
+* Process the highlight of expressions resulting from a "NEAR" query and taking into account the carriage return.
+* Check the consistency of the index and prevent the server from starting if a problem is detected.
+* Manage abreviations within the indexed documents.
+ 
+
+#### Version 2.3.01 Date: June 30th 2013
+
+*New Features relating to the overall suite myCAT
+
+* Complete documentation for CSS and parameters of the Graphical User Interface.
+* Configurable converter open to all other converting tools, useful also in command line.
+* Special characters normalization during segmentation of converted documents.
+* Implementation of a cache zip for documents in order to enhance system performances especially for the exact matching and Maps building.
+* Maps construction is implemented as a parallel process for better performances.
+* Dynamic switch between different languages representing the user interface.
+
+New Features in the Text Aligner
+
+* Automatic scrolling enhanced for better positionning ans highlight to cope with all browsers.
+* Adding a sophisticated display for the highlighted hits in the status bar (Hit number/Total number).
+
+New Features in the Self-Quote Detector
+
+* Adding internal links in the referenced document for top and statistics.
+* Source verification in referenced documents.
+* Documents display widget has the same behavior and functionnalities as for the TextAligner
+ 
+
+#### Version 2.2.01 Date: May 9th 2013
+
+New Features in the Text Aligner
+
+* Exact matching for queries.
+* Adding a carriage return in all documents to separate paragraphs for better visualization.
+* Enhancing highlighting occurrences of expressions with the "NEAR" operator.
+* Expressions that exceed paragraphs and are on many lines are now considered in search results inside the document and also highlighted.
+ 
+
+#### Version 2.1.05 Date: March 11th 2013
+
+New Features relating to the overall suite myCAT
+
+* Adding date and time to logs names.
+* Case sensitive/insensitive for document search (/"XXX").
+* Better compatibility with Firefox and IE thanks to the new version of GWT (Google Web Toolkit).
+
+New Features in the Self-Quote Detector
+
+* It is now possible to adapt document font in the css.
+ 
+
+#### Version 2.1.03 Date: 7 December 2012
+
+New Features relating to the overall suite myCAT
+
+* Paths are now relative in the configuration files to allow for various access modes simultaneously (e.g. intranet access and web access).
+* It is now possible to de-activate the maximization of the browser when opening myCAT.
+* Better compatibility with Firefox and IE thanks to the new version of GWT (Google Web Toolkit).
+* The messages displayed by the Java program are clearer (the * English language was not correct in the previous version).
+
+New Features in the Text Aligner
+
+* Better indexing of capital characters with accents (ex : a search on a word like «État» are now correctly processed).
+* Glossaries automatically come at the top of search results in the Hit List.
+
+New Features in the Quote Detector
+
+* It is now possible to upload a document up to 20 MB (previously it was limited to 3 MB).
+
+New Features in the Self-Quote Detector
+
+* It is now possible to upload a document up to 20 MB (previously it was limited to 3 MB).
+ 
+
+#### Version 2.0 Date: 30 November 2012
+
+New Features in the Text Aligner
+
+* Search is now possible on file names.
+* Navigation by tabs from the Text Aligner to other myCAT modules.
+* All messages are grouped in a bottom bar which also includes a link to Olanto’s website and a “Feedback” mailto link.
+* Collection priority setting: Search results are displayed in the order in which the collections were ticked in the Collection Box.
+* Wildcard: the * joker character can be used anywhere in a word to replace one or several characters.
+
+New Features in the Quote Detector
+
+* Quotes are now highlighted in a yellow background.
+* A section containing statistics about the quotes is appended at the bottom of the analyzed document.
+* It is now possible to save the resulting HTML file of an analyzed document, and to reload it later in the Quote Detector so as to use the references without performing the analysis again.
+* A Self-Quote Detector is now available
+
+The Self-Quote Detector is a tool which detects whether some expressions are repeated within a document. If an expression is used several times across the text, it will find it and turn it into a hypertext so the user can navigate from an occurrence of that expression to the next one. This feature is useful if the user wants to see a specific expression in the various contexts in which it is used in the document to be translated, or if the translation must be shared between several translators.
+
+The result of the Self-Quote Detector is an HTML file which can be saved so it can be open and used later in a browser independently from the application.
+ 
+
+#### Version 1.1.1.b Date: 31 July 2012
+
+Bug Fixes
+
+* myCAT is now based on Java 7, Tomcat 7 and OpenOffice 3.4 (this solves some recently-detected vulnerabilities).
+
+Improvements
+
+* The following modifications can now be performed without modifying the Java source code in Netbeans, by only modifying external XML files (see the new installation manual):
+**  Adding languages
+** Placing the corpus, the index and the alignment maps in a different location from C:\ (which is myCAT's main location).
+* Thus the source code does not have to be distributed within the application anymore.
+* The internal folder structure of myCAT was modified accordingly.
+ 
+
+#### Version 1.1.1.a Date: 16 July 2012
+
+Bug Fixes
+
+* In QD the quote marks were overlapping when two references were immediately following each other in the analyzed text. The GWT code was corrected.
+* The blue bars indicating the probable location of the relevant text part in QD were sometimes much too long or too short. The GWT code was corrected.
+* A search for figures separated by commas or dots did not retrieve any result. This was corrected with a generic character which is the blank character: when looking for a number which could be separated by commas, dots or apostrophes, users now simple put a blank space instead of those characters and the string is retrieved whatever the original character. The indexer was corrected.
+
+Improvements
+
+* The underscore character "_" is now indexed.
+ 
+
+#### Version 1.1.1 Date: June 2012
+
+Bug Fixes
+
+* Mozilla Firefox was not correctly supported in QD. The GWT code was corrected.
+
+Improvements
+
+* The minimum number of consecutive words in QD was reduced from 6 to 3.
+ 
+
+#### Version 1.1 Date: February 2012
+
+Bug Fixes
+
+* A search including numbers before letters did not work (e.g. "29 November 2011" could not be found). The indexer was corrected.
+
+Improvements
+
+* Graphic User Interfaces were colorized.
+ 
+## source & licence
+
+Licence AGPL v3 - sources [@GitHub](https://github.com/olanto/MYCAT)
+
+

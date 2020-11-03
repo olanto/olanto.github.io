@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html class="nojs" lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+<title>myCAT – Olanto Fondation</title>
+<meta name="created" content="0001-01-01T00:00:00&#43;0000">
+<meta name="modified" content="0001-01-01T00:00:00&#43;0000">
+<meta name="author" content="Olanto">
+<meta name="description" content="&lt;p&gt;myCAT est un concordancier, c&amp;rsquo;est-à-dire un moteur de recherche qui, en plus d&amp;rsquo;afficher des documents pertinents, montre également leur traduction (s&amp;rsquo;ils ont déjà été traduits) et aligne automatiquement les versions en langue source et en langue cible sur les occurrences des termes recherchés.&lt;/p&gt;">
+<meta property="og:site_name" content="Olanto Fondation">
+<meta property="og:title" content="myCAT">
+<meta property="og:url" content="http://example.org/fr/software/mycat/">
+
+<meta name="generator" content="Hugo 0.48" />
+
+<link rel="canonical" href="http://example.org/fr/software/mycat/">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/print.css" media="print">
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "myCAT",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "0001-01-01T00:00:00Z",
+    "url" : "http://example.org/fr/software/mycat/",
+    "description": "\u003cp\u003emyCAT est un concordancier, c\u0026rsquo;est-à-dire un moteur de recherche qui, en plus d\u0026rsquo;afficher des documents pertinents, montre également leur traduction (s\u0026rsquo;ils ont déjà été traduits) et aligne automatiquement les versions en langue source et en langue cible sur les occurrences des termes recherchés.\u003c/p\u003e",
+    "author": {
+      "@type": "Person",
+      "name": "Olanto"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http://example.org/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Olanto Fondation",
+      "url": "http://example.org/",
+    }
+  }
+</script>
+
+</head>
+
+<body>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header" role="banner">
+<a href="/fr/" title="Home" rel="home" class="header__logo"><img src="/images/logo.png" alt="Home" class="header__logo-image"></a>
+<h1 class="header__site-name">
+<a href="/fr/" title="Home" class="header__site-link" rel="home"><span>Olanto Fondation</span></a>
+</h1>
+<div class="region header__region">
+<h2 class="visually-hidden">Language selector</h2>
+<nav class="language-selector layout__language-selector" role="navigation">
+<ul class="navbar">
+
+<li><a rel="alternate" href="/software/mycat/" hreflang="en" lang="en">English</a></li>
+</ul>
+</nav>
+
+
+</div>
+</header>
+
+
+
+
+<nav class="main-menu layout__navigation" role="navigation">
+<h2 class="visually-hidden">Main menu</h2>
+<ul class="navbar">
+<li><a class="" href="/fr/">Home</a></li>
+<li><a class="" href="/fr/foundation/">Foundations</a></li>
+<li><a class="active" href="/fr/software/">Softwares</a></li>
+</ul>
+</nav>
+
+
+<main class="main layout__main" role="main">
+<h1 class="title ">myCAT</h1>
+<article class="section-software single-view">
+<header>
+</header>
+<div class="content">
+<p>myCAT est un concordancier, c&rsquo;est-à-dire un moteur de recherche qui, en plus d&rsquo;afficher des documents pertinents, montre également leur traduction (s&rsquo;ils ont déjà été traduits) et aligne automatiquement les versions en langue source et en langue cible sur les occurrences des termes recherchés.</p>
+
+<p>myCAT comporte deux modules :</p>
+
+<ul>
+<li>un aligneur de textes (Text Aligner)</li>
+<li>un détecteur de citations (Quote Detector)</li>
+</ul>
+
+<p>L&rsquo;aligneur de textes affiche et aligne automatiquement les versions source et cible d&rsquo;un document donné.</p>
+
+<p>Le détecteur de citations compare un document à traduire avec l&rsquo;ensemble des documents déjà traduits auparavant pour détecter d&rsquo;éventuels passages repris. Il affiche et aligne ensuite les versions source et cible de ce document de référence.</p>
+
+<p>Ce qui rend myCAT unique, c&rsquo;est que sa fonction d&rsquo;alignement automatique repose sur des cartes d&rsquo;alignement qui sont construites avec <a href="https://www.statmt.org/moses/">Moses</a>, un outil de traduction automatique statistique. myCAT peut être employé pour n&rsquo;importe quelle combinaison de langues; si aucune carte d&rsquo;alignement n&rsquo;a été établie pour la paire de langues considérée, un algorithme d&rsquo;alignement géométrique sera employé par défaut.</p>
+
+<h2 id="online-demonstration-demo">Online demonstration Demo</h2>
+
+<p>Avant d&rsquo;utiliser la démo, il est conseillé de lire les conseils ci-dessous.
+La démo est disponible sur : <a href="http://srv3.olanto.org/TranslationText">demo</a>.</p>
+
+<h3 id="langue-de-l-interface">Langue de l&rsquo;interface !</h3>
+
+<p>L&rsquo;interface de myCAT est complètement adaptable, nous avons un mécanisme dynamique pour l&rsquo;internationalisation des interfaces. Actuellement nous avons traduit l&rsquo;interface en 5 langues (en, fr, ar, es, ru). Si vous souhaitez rajouter une autre langue n&rsquo;hésitez pas à nous jacques@olanto.org (contacter).</p>
+
+<h3 id="démarrage-rapide">Démarrage rapide !</h3>
+
+<p>Si vous souhaitez simplement jeter un coup d&rsquo;oeil au fonctionnement de myCAT, la manière la plus simple est d&rsquo;essayer l&rsquo;Aligneur de textes (Text Aligner) et le Détecteur de citations (Quote Detector).</p>
+
+<h3 id="a-lire-au-préalable">A lire au préalable !</h3>
+
+<p>Si vous souhaitez tester notre version de démonstration de myCAT, voici quelques éléments à connaître au préalable :</p>
+
+<p>Navigateurs acceptés: bien que myCAT ait été développé avec la technologie GWT de Google, qui permet en principe de faire fonctionner les logiciels dans la plupart des navigateurs, il est vivement recommandé d&rsquo;employer une version récente de Mozilla Firefox ou Internet Explorer. Actuellement l&rsquo;aligneur de texte de myCAT fonctionne correctement sous Chrome mais le détecteur de citations rencontre encore quelques difficultés. Nous travaillons dessus, et toutes les bonnes volontés sont les bienvenues pour régler le problème!</p>
+
+<p>Un manuel de l&rsquo;utilisateur (en anglais pour le moment) est disponible en ligne en cliquant sur le bouton HELP. Ce document détaille les différentes fonctionnalités du logiciel; il est vivement conseillé de le lire avant de tester ce dernier.</p>
+
+<p>La version de démonstration de myCAT a été construite à partir d&rsquo;un corpus comprenant plus d&rsquo;un million de documents qui contiennent plus de dix millions de mots différents en 25 langues. Ce corpus provient essentiellement des sources suivantes:  <a href="https://www.euromatrixplus.net/multi-un/">The United Nations&rsquo;Multilingual Parallel Text 2000-2009  </a> et le <a href="https://langtech.jrc.it/JRC-Acquis.html">European Commission&rsquo;s JRC-Acquis</a>.</p>
+
+<h4 id="essai-de-l-aligneur-de-textes-text-aligner">Essai de l&rsquo;Aligneur de textes (Text Aligner)</h4>
+
+<p>Définissez votre paire de langues dans les menus déroulants (Ex: EN-FR signifie anglais vers français). Les codes de langues à deux lettres sont conformes à la norme ISO 639-1.</p>
+
+<p>Saisissez dans le champ de texte un mot ou une expression de la langue source choisie (dans notre exemple: anglais).</p>
+
+<p>Cliquez sur le bouton GO de l&rsquo;interface ou appuyez sur la touche ENTRÉE de votre clavier.</p>
+
+<p>Cliquez sur l&rsquo;un des documents dont le nom apparaît dans la liste des résultats (&ldquo;Hit List&rdquo;). Le terme recherché apparaîtra en surbrillance dans ce document, et la version cible sera affichée à côté et automatiquement alignée.</p>
+
+<p>Vous pouvez vous déplacer d&rsquo;une occurrence du terme à l&rsquo;autre en cliquant sur les boutons &lt;&lt; ou &gt;&gt;.</p>
+
+<p>Vous pouvez utiliser l&rsquo;ascenseur vertical pour lire l&rsquo;ensemble du document affiché. À tout moment vous pouvez cliquer deux fois sur un mot dans ce texte, puis cliquer sur le bouton &ldquo;Align&rdquo; pour voir la partie correspondante de la version cible.</p>
+
+<p>Vous pouvez employer le bouton &ldquo;Search&rdquo; pour effectuer une recherche différente au sein du document affiché (par exemple si ce document contient beaucoup de terminologie utile).</p>
+
+<p>Les documents affichés sont des conversions en texte simple des documents originaux (qui étaient généralement aux formats MS-Word ou PDF). Le bouton &ldquo;Original&rdquo; permet normalement d&rsquo;afficher le document dans son format original. Néanmoins, dans cette version de démonstration, seuls les documents figurant dans la collection &ldquo;Small Collection&rdquo; peuvent aussi s&rsquo;afficher en version originale. Si vous souhaitez tester le bouton &ldquo;Original&rdquo;, il convient donc de cliquer sur le bouton &ldquo;Collection&rdquo;, choisir &ldquo;Small Collection&rdquo; et cliquer sur &ldquo;Set Selection&rdquo;. Ainsi, tous les documents que vous trouverez proviendront de cette collection et pourront être affichés aussi sous leur format original.</p>
+
+<h4 id="testing-the-quote-detector">Testing the Quote Detector</h4>
+
+<p>Cliquez sur le bouton &ldquo;Quote Detector&rdquo;.</p>
+
+<p>Définissez votre paire de langues dans les menus déroulants.</p>
+
+<p>Cliquez sur le bouton &ldquo;Browse&rdquo; pour téléverser le document que vous souhaitez analyser (un document d&rsquo;exemple à analyser d&rsquo;anglais en français peut être téléchargé <a href="http://srv3.olanto.org/download/documentation/Test_document.docx">ici</a>.
+Note: dans la version de démonstration, les documents à soumettre au détecteur de citations sont tronqués après 3&rsquo;000 caractères.</p>
+
+<p>Cliquez sur le bouton GO. Le document résultant de l&rsquo;analyse est affiché dans le cadre central; des statistiques sur l&rsquo;analyse sont ajoutées à la fin de ce document.</p>
+
+<p>##Téléchargements</p>
+
+<h3 id="mycat-4-1-0-pour-windows-64-bit-version">myCAT 4.1.0 pour Windows, 64-bit version</h3>
+
+<p>(testé sur Windows 7,8,10 et Windows 2008,2016 Server)
+Les fichiers d&rsquo;installation de myCAT peuvent être téléchargés <a href="http://srv3.olanto.org/download/myCAT/update-4.1.0/myCAT.zip">ici</a> (275 Mb).</p>
+
+<p>SHA1 key: 5adc2f8a5e8819e9d4c035a5b907c7996416dd23</p>
+
+<h4 id="outils">Outils</h4>
+
+<p>Les logiciels Java, Tomcat et OpenOffice peuvent être téléchargé:</p>
+
+<ul>
+<li><a href="http://srv3.olanto.org/download/win/install/Tools7.zip">java 7, tomcat 7</a> (238 Mb) - sha1 :2B7DE1A6590E04B241A679451952256834A6C21B.</li>
+<li><a href="http://srv3.olanto.org/download/win/install/Tools8.zip">java 8, tomcat 8</a> (308 Mb) - sha1 :1968eb32f0fd56e9a811662e5d16770e7b993481.</li>
+<li><a href="http://srv3.olanto.org/download/win/install/Tools10.zip">java 10, tomcat 9</a> (555 Mb) - sha1 :
+c4e40feefc821425c9ab2d0064daed0862c447d8.</li>
+</ul>
+
+<p>Dans le fichier suivant, vous trouverez des batchs adaptés <a href="http://srv3.olanto.org/download/win/install/run789.zip">tomcat 7,8,9</a> (1 Mb) - sha1 : 9a023005a810a2c7541c6a56a86abb30db7530f2</p>
+
+<p>Il est recommandé de n&rsquo;employer que ces distributions afin de disposer de la version requise.</p>
+
+<p>La procédure permettant d&rsquo;effectuer une installation classique de myCAT sur un serveur dédié équipé de Windows est décrite ici <a href="http://srv3.olanto.org/download/win/install/myCAT2.1.03.zip">generic doc</a>.</p>
+
+<h3 id="mycat-4-1-0-pour-gnu-linux-64-bit-version">myCAT 4.1.0 pour GNU/Linux, 64-bit version</h3>
+
+<p>(testé sur Ubuntu 12,14,16,&amp; 18.04 LTS)
+Les fichiers d&rsquo;installation de myCAT peuvent être téléchargé <a href="http://srv3.olanto.org/download/myCAT/update-4.1.0/myCAT-linux.zip">here</a> (292 Mb).</p>
+
+<p>SHA1 key: 90277bd5a7d0c36e7acd2a09695f34579402c763</p>
+
+<h3 id="tools">Tools</h3>
+
+<p>le fichier OpenOffice file peut être téléchargé <a href="http://srv3.olanto.org/download/linux/install/Apache_OpenOffice_incubating_3.4.0_Linux_x86-64_install-deb_en-US.tar.gz">here</a> (171 Mb).</p>
+
+<p>SHA1 key: 2B8071CF3F26C202BB7B0BE1AFD5DC2F21221614</p>
+
+<p>The procedure to perform a standard installation of myCAT on a dedicated server running Ubuntu 18.04 LTS is described <a href="http://srv3.olanto.org/download/documentation/myCat_Linux_install 18.04.pdf">here</a>.</p>
+
+<h3 id="ajouter-des-cartes-d-alignement">Ajouter des Cartes d&rsquo;alignement</h3>
+
+<p>La version de base de myCAT est livrée avec les cartes d&rsquo;alignement suivantes: anglais-arabe, anglais-espagnol, anglais-français, anglais-portugais et anglais-russe. Il est possible d&rsquo;ajouter les paires de langues suivantes :</p>
+
+<p>Anglais-Allemand <a href="http://srv3.olanto.org/download/maps/ENDE.zip">here</a>
+Anglais-Chinois <a href="http://srv3.olanto.org/download/maps/ENZH.zip">here</a></p>
+
+<h3 id="ajouter-des-cartes-d-alignement-1">Ajouter des Cartes d&rsquo;alignement</h3>
+
+<p>La version de base de myCAT est livrée avec les cartes d&rsquo;alignement suivantes:</p>
+
+<ul>
+<li>anglais-arabe</li>
+<li>anglais-espagnol</li>
+<li>anglais-français</li>
+<li>anglais-portugais</li>
+<li>anglais-russe</li>
+</ul>
+
+<p>Il est possible d&rsquo;ajouter les paires de langues suivantes :</p>
+
+<ul>
+<li>anglais-allemand</li>
+<li>anglais-chinois (expérimental, tous les commentaires sont les bienvenus)</li>
+</ul>
+
+<p>Il suffit de télécharger ces fichiers et de les décompresser dans le dossier :</p>
+
+<ul>
+<li>pour Windows:  C:\MYCAT\map</li>
+<li>pour GNU/Linux:  ~/MYCAT/map</li>
+</ul>
+
+<h3 id="règles-de-nommage-des-documents">Règles de nommage des documents</h3>
+
+<p>Le corpus de documents bi-textes qui sera exploité par <a href="/software/myMT.en.md">myMT</a> doit être conforme aux <a href="http://srv3.olanto.org/download/documentation/myCAT_doc_specs.pdf">spécifications suivantes</a>.</p>
+
+<p>Cette distribution de myMT contient un très petit corpus de 48 documents qui permet de tester l&rsquo;application dans les six langues suivantes: anglais, français, espagnol, russe, arabe et chinois. Ces documents sont organisés en trois collections: ONU (UNO), OMPI (WIPO) et OMC (WTO). Ce sont tous des documents publics qui ont été téléchargés depuis le site respectif de ces organisations.</p>
+
+<h2 id="source-licence">source &amp; licence</h2>
+
+<p>Licence AGPL v3 - sources <a href="https://github.com/olanto/MYCAT">@GitHub</a></p>
+
+<h2 id="changelog">changelog</h2>
+
+<p>This document details the bug fixes and improvements in each new release of the myPREP software.</p>
+
+<h4 id="version-4-1-0-date-10-5-2018">Version 4.1.0 date 10-5-2018</h4>
+
+<ul>
+<li>Start myCAT from a URL with query in parameter
+<a href="http://localhost:8080/TranslationText?searchquery=&quot;report&quot;">http://localhost:8080/TranslationText?searchquery=&quot;report&quot;</a></li>
+</ul>
+
+<h4 id="version-4-0-15-date-7-3-2017">Version 4.0.15 Date: 7-3- 2017</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>WebService to Call Quote Detector<br /></li>
+<li>WebService to Merge Quote Detection with different profiles into the same documents</li>
+<li>Improve accuracy of Quote Detector (remove stop words)</li>
+</ul>
+
+<h4 id="version-3-7-0-date-10-1-2016">Version 3.7.0 Date: 10 -1- 2016</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>Add a checkbox ‘Rem First’ into QD to remove first reference.</li>
+<li>Add a checkbox ‘Fast’ into QD to improve the quality of references (check=fast, uncheck=accurate).</li>
+<li>Open QD from an URL (<a href="http://localhost:8080/TranslationText?QDfile=C:/MYCAT/corpus/reftest/Doc_EN_XXX_Refdoc.html">http://localhost:8080/TranslationText?QDfile=C:/MYCAT/corpus/reftest/Doc_EN_XXX_Refdoc.html</a>)</li>
+<li>Improve initial load of ZIP Cache (new parameter IDX_ZIP_CACHE_FASTLOAD)</li>
+<li>Improve accuracy of Quote Detector (new parameter REALREF_MAX_CHECK)</li>
+<li>Improve performance of Quote Detector (new parameter REF_MAX_THREAD)</li>
+<li>Accept file renaming (Only for Windows) (new parameter FILE_RENAME, FILE_COLLECTION_CASE, FILE_NAME_CASE, FILE_EXTENTION_CASE)</li>
+<li>Accept to rename the “Glossaries” folder (new parameter GLOSS_NAME)</li>
+<li>Improve detection of abbreviation</li>
+</ul>
+
+<h4 id="version-3-3-0-date-october-17th-2014">Version 3.3.0 Date: October 17th 2014</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>Fixed a bug for the EXACT CLOSE query calculation</li>
+<li>Fixed a bug in cache management anb objects identification</li>
+<li>Added a resize button to the interface of the Bitext Aligner called from externat application</li>
+</ul>
+
+<h4 id="version-3-2-4-date-july-7th-2014">Version 3.2.4 Date: July 7th 2014</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>Fixed a filtering problem with aglutinative lanugages</li>
+<li>Fixed a bug for exact queries that created highlight problems: stop words were not taken into consideration</li>
+</ul>
+
+<h4 id="version-3-2-3-date-may-24th-2014">Version 3.2.3 Date: May 24th 2014</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>Enhanced features for highlighting exact expressions (more precise documents and more precise highlights)</li>
+<li>Fixed a filtering problem with arabic language into query field</li>
+<li>Fixed a filtering problem in the query field with the special characters: &lsquo;_&lsquo;, &lsquo;/&rsquo; and &lsquo;-&rsquo;</li>
+</ul>
+
+<h4 id="version-3-2-2-date-april-24th-2014">Version 3.2.2 Date: April 24th 2014</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>New querying possibilities: Accept wildChar (only one fuzzy term) in a multi-term expression at any position (like: global* economic)</li>
+<li>New querying possibilities: Accept CLOSE between two exact expressions (like: &ldquo;global&rdquo; CLOSE &ldquo;reporting&rdquo;)</li>
+<li>Improved line segmentation (5 times faster)</li>
+<li>Normalized query field with the same replaceChar than line segmentation</li>
+<li>Fixed a filtering problem into query field (Keep char with accent or Chinese char)</li>
+</ul>
+
+<h4 id="version-3-2-1-date-april-14th-2014">Version 3.2.1 Date: April 14th 2014</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>Fixing tokenization problems</li>
+<li>Adding filters for queries to remove special characters</li>
+</ul>
+
+<h4 id="version-3-1-1-date-march-21st-2014">Version 3.1.1 Date: March 21st 2014</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>Fixing the bug of exact expressions when highlighting results within the displayed documents.</li>
+<li>Faster version of alignment computing for very large documents (&gt; 20&rsquo;000 paragraphs).</li>
+<li>Adapting text direction automatically depending on the language (e.g. AR)</li>
+<li>Adapting regular expressions for the exact matching.</li>
+<li>Fixing double call of aligned documents when clicking on a document.</li>
+</ul>
+
+<h4 id="version-3-1-0-date-february-2nd-2014">Version 3.1.0 Date: February 2nd 2014</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>Fixing the bug of loss focus in Firefox and Chrome when highlighting results within the displayed documents.</li>
+<li>Updating docx and pdf converters with the latest libreries.</li>
+<li>Improved alignment for very large documents (&gt; 20&rsquo;000 paragraphs).</li>
+<li>Dynamic resize of the Graphical User Interface to be adapted automatically to the client&rsquo;s monitor or browser&rsquo;s dimentions.</li>
+<li>Removing extra blanks for chinese when displaying the document&rsquo;s content.</li>
+</ul>
+
+<p>New Features in the Text Aligner</p>
+
+<ul>
+<li>Adding new parameters or regular expression, special characters and respect Case for the exact matching.</li>
+<li>Adding a new feature for a better tokenization of the query (removing or normalizing special characters).</li>
+<li>Fixing stop words highlighting in exact queries</li>
+</ul>
+
+<h4 id="version-2-4-01-date-november-26th-2013">Version 2.4.01 Date: November 26th 2013</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>Improved alignment for very large documents.</li>
+<li>Bug fix for Glossaries.</li>
+<li>Load txt from a zip.</li>
+<li>Process the highlight of expressions resulting from a &ldquo;NEAR&rdquo; query and taking into account the carriage return.</li>
+<li>Check the consistency of the index and prevent the server from starting if a problem is detected.</li>
+<li>Manage abreviations within the indexed documents.</li>
+</ul>
+
+<h4 id="version-2-3-01-date-june-30th-2013">Version 2.3.01 Date: June 30th 2013</h4>
+
+<p>*New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>Complete documentation for CSS and parameters of the Graphical User Interface.</li>
+<li>Configurable converter open to all other converting tools, useful also in command line.</li>
+<li>Special characters normalization during segmentation of converted documents.</li>
+<li>Implementation of a cache zip for documents in order to enhance system performances especially for the exact matching and Maps building.</li>
+<li>Maps construction is implemented as a parallel process for better performances.</li>
+<li>Dynamic switch between different languages representing the user interface.</li>
+</ul>
+
+<p>New Features in the Text Aligner</p>
+
+<ul>
+<li>Automatic scrolling enhanced for better positionning ans highlight to cope with all browsers.</li>
+<li>Adding a sophisticated display for the highlighted hits in the status bar (Hit number/Total number).</li>
+</ul>
+
+<p>New Features in the Self-Quote Detector</p>
+
+<ul>
+<li>Adding internal links in the referenced document for top and statistics.</li>
+<li>Source verification in referenced documents.</li>
+<li>Documents display widget has the same behavior and functionnalities as for the TextAligner</li>
+</ul>
+
+<h4 id="version-2-2-01-date-may-9th-2013">Version 2.2.01 Date: May 9th 2013</h4>
+
+<p>New Features in the Text Aligner</p>
+
+<ul>
+<li>Exact matching for queries.</li>
+<li>Adding a carriage return in all documents to separate paragraphs for better visualization.</li>
+<li>Enhancing highlighting occurrences of expressions with the &ldquo;NEAR&rdquo; operator.</li>
+<li>Expressions that exceed paragraphs and are on many lines are now considered in search results inside the document and also highlighted.</li>
+</ul>
+
+<h4 id="version-2-1-05-date-march-11th-2013">Version 2.1.05 Date: March 11th 2013</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>Adding date and time to logs names.</li>
+<li>Case sensitive/insensitive for document search (/&ldquo;XXX&rdquo;).</li>
+<li>Better compatibility with Firefox and IE thanks to the new version of GWT (Google Web Toolkit).</li>
+</ul>
+
+<p>New Features in the Self-Quote Detector</p>
+
+<ul>
+<li>It is now possible to adapt document font in the css.</li>
+</ul>
+
+<h4 id="version-2-1-03-date-7-december-2012">Version 2.1.03 Date: 7 December 2012</h4>
+
+<p>New Features relating to the overall suite myCAT</p>
+
+<ul>
+<li>Paths are now relative in the configuration files to allow for various access modes simultaneously (e.g. intranet access and web access).</li>
+<li>It is now possible to de-activate the maximization of the browser when opening myCAT.</li>
+<li>Better compatibility with Firefox and IE thanks to the new version of GWT (Google Web Toolkit).</li>
+<li>The messages displayed by the Java program are clearer (the * English language was not correct in the previous version).</li>
+</ul>
+
+<p>New Features in the Text Aligner</p>
+
+<ul>
+<li>Better indexing of capital characters with accents (ex : a search on a word like «État» are now correctly processed).</li>
+<li>Glossaries automatically come at the top of search results in the Hit List.</li>
+</ul>
+
+<p>New Features in the Quote Detector</p>
+
+<ul>
+<li>It is now possible to upload a document up to 20 MB (previously it was limited to 3 MB).</li>
+</ul>
+
+<p>New Features in the Self-Quote Detector</p>
+
+<ul>
+<li>It is now possible to upload a document up to 20 MB (previously it was limited to 3 MB).</li>
+</ul>
+
+<h4 id="version-2-0-date-30-november-2012">Version 2.0 Date: 30 November 2012</h4>
+
+<p>New Features in the Text Aligner</p>
+
+<ul>
+<li>Search is now possible on file names.</li>
+<li>Navigation by tabs from the Text Aligner to other myCAT modules.</li>
+<li>All messages are grouped in a bottom bar which also includes a link to Olanto’s website and a “Feedback” mailto link.</li>
+<li>Collection priority setting: Search results are displayed in the order in which the collections were ticked in the Collection Box.</li>
+<li>Wildcard: the * joker character can be used anywhere in a word to replace one or several characters.</li>
+</ul>
+
+<p>New Features in the Quote Detector</p>
+
+<ul>
+<li>Quotes are now highlighted in a yellow background.</li>
+<li>A section containing statistics about the quotes is appended at the bottom of the analyzed document.</li>
+<li>It is now possible to save the resulting HTML file of an analyzed document, and to reload it later in the Quote Detector so as to use the references without performing the analysis again.</li>
+<li>A Self-Quote Detector is now available</li>
+</ul>
+
+<p>The Self-Quote Detector is a tool which detects whether some expressions are repeated within a document. If an expression is used several times across the text, it will find it and turn it into a hypertext so the user can navigate from an occurrence of that expression to the next one. This feature is useful if the user wants to see a specific expression in the various contexts in which it is used in the document to be translated, or if the translation must be shared between several translators.</p>
+
+<p>The result of the Self-Quote Detector is an HTML file which can be saved so it can be open and used later in a browser independently from the application.</p>
+
+<h4 id="version-1-1-1-b-date-31-july-2012">Version 1.1.1.b Date: 31 July 2012</h4>
+
+<p>Bug Fixes</p>
+
+<ul>
+<li>myCAT is now based on Java 7, Tomcat 7 and OpenOffice 3.4 (this solves some recently-detected vulnerabilities).</li>
+</ul>
+
+<p>Improvements</p>
+
+<ul>
+<li>The following modifications can now be performed without modifying the Java source code in Netbeans, by only modifying external XML files (see the new installation manual):
+**  Adding languages
+** Placing the corpus, the index and the alignment maps in a different location from C:\ (which is myCAT&rsquo;s main location).</li>
+<li>Thus the source code does not have to be distributed within the application anymore.</li>
+<li>The internal folder structure of myCAT was modified accordingly.</li>
+</ul>
+
+<h4 id="version-1-1-1-a-date-16-july-2012">Version 1.1.1.a Date: 16 July 2012</h4>
+
+<p>Bug Fixes</p>
+
+<ul>
+<li>In QD the quote marks were overlapping when two references were immediately following each other in the analyzed text. The GWT code was corrected.</li>
+<li>The blue bars indicating the probable location of the relevant text part in QD were sometimes much too long or too short. The GWT code was corrected.</li>
+<li>A search for figures separated by commas or dots did not retrieve any result. This was corrected with a generic character which is the blank character: when looking for a number which could be separated by commas, dots or apostrophes, users now simple put a blank space instead of those characters and the string is retrieved whatever the original character. The indexer was corrected.</li>
+</ul>
+
+<p>Improvements</p>
+
+<ul>
+<li>The underscore character &ldquo;_&rdquo; is now indexed.</li>
+</ul>
+
+<h4 id="version-1-1-1-date-june-2012">Version 1.1.1 Date: June 2012</h4>
+
+<p>Bug Fixes</p>
+
+<ul>
+<li>Mozilla Firefox was not correctly supported in QD. The GWT code was corrected.</li>
+</ul>
+
+<p>Improvements</p>
+
+<ul>
+<li>The minimum number of consecutive words in QD was reduced from 6 to 3.</li>
+</ul>
+
+<h4 id="version-1-1-date-february-2012">Version 1.1 Date: February 2012</h4>
+
+<p>Bug Fixes</p>
+
+<ul>
+<li>A search including numbers before letters did not work (e.g. &ldquo;29 November 2011&rdquo; could not be found). The indexer was corrected.</li>
+</ul>
+
+<p>Improvements</p>
+
+<ul>
+<li>Graphic User Interfaces were colorized.</li>
+</ul>
+
+</div>
+</article>
+</main>
+
+
+
+<aside class="sidebar layout__second-sidebar" role="complementary">
+<section>
+<h4 class="menu"><a class="" href="/fr/foundation/">Foundations</a></h4>
+<ul class="menu">
+<li><a class="" href="/fr/foundation/communication/">Communication</a></li>
+<li><a class="" href="/fr/foundation/contact/">Contact</a></li>
+<li><a class="" href="/fr/foundation/foundation/">Fondation</a></li>
+</ul>
+</section>
+<section>
+<h4 class="menu"><a class="" href="/fr/software/">Softwares</a></h4>
+<ul class="menu">
+<li><a class="" href="/fr/software/education/">Education</a></li>
+<li><a class="" href="/fr/software/how2say/">How2Say</a></li>
+<li><a class="" href="/fr/software/overview/">Vue d&#39;ensemble</a></li>
+<li><a class="active" href="/fr/software/mycat/">myCAT</a></li>
+<li><a class="" href="/fr/software/myclass/">myCLASS</a></li>
+<li><a class="" href="/fr/software/mymt/">myMT</a></li>
+<li><a class="" href="/fr/software/myprep/">myPREP</a></li>
+<li><a class="" href="/fr/software/myterm/">myTERM</a></li>
+</ul>
+</section>
+</aside>
+
+
+<footer class="footer layout__footer" role="contentinfo">
+<p><span>© Olanto Fondation</span></p>
+
+
+</footer>
+
+</div>
+
+
+
+</body>
+</html>

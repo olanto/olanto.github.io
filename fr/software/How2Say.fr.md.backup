@@ -1,0 +1,47 @@
+---
+title: "How2Say"
+author: "Olanto"
+
+---
+
+
+How2Say est un outil d’exploration terminologique applicable à des corpus multilingues.
+<!--more-->
+
+Il permet de trouver pour un terme recherché par exemple pommes de terre
+
+les super termes « fécule de pomme de terre »,
+des propositions de traduction pour la langue sélectionnée « potatoes »
+éventuellement les synonymes « papas (ES) »
+
+How2Say fonctionne uniquement avec les termes utilisés dans le corpus et donc donne une vision la plus exacte possible de l’usage de terminologique pour une organisation particulière ou un domaine particulier.
+
+How2Say utilise les corpus qui peuvent être alignés avec les outils de myPREP de Olanto
+
+## Demo
+
+Deux démonstrations sont disponibles l’une basée sur le corpus de DGT 2013 de la communauté européenne (voir [corpus]()https://ec.europa.eu/jrc/en/language-technologies/dgt-translation-memory) comportant 85 millions de phrases et portant sur 24 langues. 
+
+L’autre sur la un corpus de l’ONU (MultiUN: A Multilingual corpus from United Nation Documents, Andreas Eisele and Yu Chen, LREC 2010 (link is external)) comportant 65 millions de phrases et portant sur 7 langues.
+
+Démarrer [How2Say-MULTI-UN](https://88.127.130.21:5556/How2Say/how2say?query=pommes%20d%20terre&langso=FR&langta=EN)
+
+Démarrer [How2Say-DGT2014](https://88.127.130.21:4444/How2Say/how2say?query=pommes%20d%20terre&langso=FR&langta=EN)
+	
+![copyscreen](/static/how2saydemo.png)
+
+## Téléchargements
+
+How2Say for Windows, 64-bit version
+(tested on Windows 7 and Windows 2008 Server)
+Les fichiers d'installation de How2Say peuvent être téléchargés [ici] (http://srv3.olanto.org/download/HOW2SAY/update-1.1/HOW2SAY.zip) (275 Mb).
+
+SHA1 key: 0db9dfef092a160523a1d62c5a7278399e0ff893
+
+## Documentation
+
+La procédure permettant d'effectuer une installation classique de How2Say sur un serveur dédié équipé de Windows est décrite [ici](https://olanto.github.io/docs/Installing_How2Say_V1.1_EN.pdf).
+    
+
+source & licence
+Licence AGPL v3 - sources [@GitHub](https://github.com/olanto/HOW2SAY)

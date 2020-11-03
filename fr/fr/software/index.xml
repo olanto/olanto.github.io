@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Softwares on Olanto Fondation</title>
+    <link>http://example.org/fr/software/</link>
+    <description>Recent content in Softwares on Olanto Fondation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://example.org/fr/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Education</title>
+      <link>http://example.org/fr/software/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/fr/software/education/</guid>
+      <description>&lt;p&gt;Education est une version pré-installée de myCAT et myTerm.
+&lt;/p&gt;
+
+&lt;h2 id=&#34;historique&#34;&gt;Historique&lt;/h2&gt;
+
+&lt;p&gt;Lors d&amp;rsquo;un workshop sur l&amp;rsquo;utilisation des outils d&amp;rsquo;Olanto à la conférence TAO2015 à Anger, nous avons testé l&amp;rsquo;idée de distribuer une version préinstallée. Les participants recevaient une clé USB sur laquelle se trouvait une machine virtuelle et le logiciel permettant d&amp;rsquo;exécuter. Au bout de 15 minutes, chaque participant avait sa propre version et pouvait explorer les outils. Nous avons complété cette installation afin d&amp;rsquo;expérimenter les principales phases lors de la traduction d&amp;rsquo;un document.&lt;/p&gt;
+
+&lt;h2 id=&#34;projet&#34;&gt;Projet&lt;/h2&gt;
+
+&lt;p&gt;Ce projet a pour objectifs:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;De faciliter l&amp;rsquo;installation des outils d&amp;rsquo;aide à la traduction&lt;/li&gt;
+&lt;li&gt;De créer un environnement de communication entre l&amp;rsquo;enseignant et les étudiants&lt;/li&gt;
+&lt;li&gt;D&amp;rsquo;initier les étudiants à des technologies informatiques de partage, de la rédaction, de la virtualisation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;qui-peut-utiliser-ces-outils&#34;&gt;Qui peut utiliser ces outils?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;L&amp;rsquo;étudiant désirant compléter ses connaissances sur les outils de TAO&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;enseignant désirant expérimenter un travail collaboratif en TAO&lt;/li&gt;
+&lt;li&gt;Le professionnel indépendant voulant explorer les possibilités de ces outils&lt;/li&gt;
+&lt;li&gt;Une organisation voulant   explorer les possibilités de ces outils&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;comment-contribuer-à-ce-projet&#34;&gt;Comment contribuer à ce projet?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;En installant et en utilisant ces outils&lt;/li&gt;
+&lt;li&gt;En ajoutant des informations dans ce wiki pour faciliter l&amp;rsquo;utilisation de ces outils&lt;/li&gt;
+&lt;li&gt;en traduisant ces pages dans d&amp;rsquo;autres langues&lt;/li&gt;
+&lt;li&gt;en proposant des nouvelles fonctionnalités ou des nouveaux outils dans l&amp;rsquo;installation de base&lt;/li&gt;
+&lt;li&gt;en ajoutant de nouvelles ressources (bitextes, glosssaires) dans github sous votre compte.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;comment-commencer&#34;&gt;Comment commencer?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Je veux installer les outils &lt;a href=&#34;https://github.com/olanto/EDUCATION/wiki/How_to_install_FR&#34;&gt;&amp;gt;&amp;gt; Installer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Je veux tester les outils &lt;a href=&#34;https://github.com/olanto/EDUCATION/wiki/How_to_use_FR&#34;&gt;&amp;gt;&amp;gt; Utiliser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Je veux créer un environnement pour mes étudiants &lt;a href=&#34;https://github.com/olanto/EDUCATION/wiki/How_to_share_FR&#34;&gt;&amp;gt;&amp;gt; Partager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Je veux contribuer &lt;a href=&#34;https://github.com/olanto/EDUCATION/wiki/How_to_contribute_FR&#34;&gt;&amp;gt;&amp;gt; Contribuer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>How2Say</title>
+      <link>http://example.org/fr/software/how2say/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/fr/software/how2say/</guid>
+      <description>&lt;p&gt;How2Say est un outil d’exploration terminologique applicable à des corpus multilingues.
+&lt;/p&gt;
+
+&lt;p&gt;Il permet de trouver pour un terme recherché par exemple pommes de terre&lt;/p&gt;
+
+&lt;p&gt;les super termes « fécule de pomme de terre »,
+des propositions de traduction pour la langue sélectionnée « potatoes »
+éventuellement les synonymes « papas (ES) »&lt;/p&gt;
+
+&lt;p&gt;How2Say fonctionne uniquement avec les termes utilisés dans le corpus et donc donne une vision la plus exacte possible de l’usage de terminologique pour une organisation particulière ou un domaine particulier.&lt;/p&gt;
+
+&lt;p&gt;How2Say utilise les corpus qui peuvent être alignés avec les outils de myPREP de Olanto&lt;/p&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;Deux démonstrations sont disponibles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;l’une basée sur le corpus de DGT 2013 de la communauté européenne (voir [corpus]()&lt;a href=&#34;https://ec.europa.eu/jrc/en/language-technologies/dgt-translation-memory&#34;&gt;https://ec.europa.eu/jrc/en/language-technologies/dgt-translation-memory&lt;/a&gt;) comportant 85 millions de phrases et portant sur 24 langues.&lt;/li&gt;
+&lt;li&gt;L’autre sur la un corpus de l’ONU (MultiUN: A Multilingual corpus from United Nation Documents, Andreas Eisele and Yu Chen, &lt;a href=&#34;https://www.dfki.de/lt/publication_show.php?id=4790&#34;&gt;LREC 2010&lt;/a&gt;) comportant 65 millions de phrases et portant sur 7 langues.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Démarrer &lt;a href=&#34;https://88.127.130.21:5556/How2Say/how2say?query=pommes%20d%20terre&amp;amp;langso=FR&amp;amp;langta=EN&#34;&gt;How2Say-MULTI-UN&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Démarrer &lt;a href=&#34;https://88.127.130.21:4444/How2Say/how2say?query=pommes%20d%20terre&amp;amp;langso=FR&amp;amp;langta=EN&#34;&gt;How2Say-DGT2014&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://example.org/static/how2saydemo.png&#34; alt=&#34;copyscreen&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;téléchargements&#34;&gt;Téléchargements&lt;/h2&gt;
+
+&lt;p&gt;How2Say for Windows, 64-bit version
+(tested on Windows 7 and Windows 2008 Server)&lt;/p&gt;
+
+&lt;p&gt;Les fichiers d&amp;rsquo;installation de How2Say peuvent être téléchargés &lt;a href=&#34;http://srv3.olanto.org/download/HOW2SAY/update-1.1/HOW2SAY.zip&#34;&gt;ici&lt;/a&gt; (275 Mb).&lt;/p&gt;
+
+&lt;p&gt;SHA1 key: 0db9dfef092a160523a1d62c5a7278399e0ff893&lt;/p&gt;
+
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de How2Say sur un serveur dédié équipé de Windows est décrite &lt;a href=&#34;https://olanto.github.io/docs/Installing_How2Say_V1.1_EN.pdf&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;source-licence&#34;&gt;source &amp;amp; licence&lt;/h2&gt;
+
+&lt;p&gt;Licence AGPL v3 - sources &lt;a href=&#34;https://github.com/olanto/HOW2SAY&#34;&gt;@GitHub&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vue d&#39;ensemble</title>
+      <link>http://example.org/fr/software/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/fr/software/overview/</guid>
+      <description>&lt;p&gt;Vue d&amp;rsquo;ensemble du site&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://example.org/static/agplv3-155x51.png&#34; alt=&#34;logoagplv3&#34; /&gt; Les logiciels appartenant à Olanto sont distribués sous la licence GNU Affero General Public License Version 3  ou &lt;a href=&#34;https://www.gnu.org/licenses/agpl-3.0.html&#34;&gt;AGPL v3&lt;/a&gt;.
+
+Olanto développe et distribue des logiciels de TAO selon la liste suivante:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Produit&lt;/th&gt;
+&lt;th&gt;Desc&lt;/th&gt;
+&lt;th&gt;Demo&lt;/th&gt;
+&lt;th&gt;Source&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://example.org/fr/software/mycat/&#34;&gt;myCAT&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;un concordancier, c&amp;rsquo;est-à-dire un moteur de recherche&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://srv3.olanto.org/TranslationText/&#34;&gt;Demo&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;. &lt;a href=&#34;https://github.com/olanto/MYCAT&#34;&gt;@github&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://example.org/fr/software/myclass/&#34;&gt;myCLASS&lt;/a&gt;&lt;/BR&gt; &lt;a href=&#34;https://github.com/olanto/MYCLASS/wiki/Home_FR&#34;&gt;Documentation&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Classifieur de documents&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/olanto/MYCLASS/wiki/How_to_install_FR&#34;&gt;Dowload&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;. &lt;a href=&#34;https://github.com/olanto/MYCLASS&#34;&gt;@github&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://example.org/fr//software/myprep/&#34;&gt;myPREP&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;un aligneur de textes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;. &lt;a href=&#34;https://github.com/olanto/MYPREP&#34;&gt;@github&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://example.org/fr/software/mymt/&#34;&gt;myMT&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;un outil de traduction automatique&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://http://srv3.olanto.org/WebTranslator/&#34;&gt;Demo&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;. &lt;a href=&#34;https://github.com/olanto/MYMT&#34;&gt;@github&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://example.org/fr/software/myterm/&#34;&gt;myTerm&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Un outil de gestion de terminologies basé sur la norme TBX&lt;/td&gt;
+&lt;td&gt;User: demo Password:demo &lt;a href=&#34;http://srv3.olanto.org/myTerm&#34;&gt;Demo&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;. &lt;a href=&#34;https://github.com/olanto/MYTERM&#34;&gt;@github&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://example.org/fr/software/how2say/&#34;&gt;How2Say&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Un extracteur de ngrams basé sur des corpus parallèles multilingues&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://lab1.olanto.org:5556/How2Say/how2say?query=pommes%20de%20terre&amp;amp;langso=FR&amp;amp;langta=EN&#34;&gt;Demo&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;. &lt;a href=&#34;https://github.com/olanto/HOW2SAY&#34;&gt;@github&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://example.org/fr/software/education/&#34;&gt;Education&lt;/a&gt;&lt;/BR&gt;  &lt;a href=&#34;https://github.com/olanto/EDUCATION/wiki/Home_FR&#34;&gt;Documentation&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;pre-installed CAT Tools&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/olanto/EDUCATION/wiki/How_to_install_FR&#34;&gt;Dowload&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;. &lt;a href=&#34;https://github.com/olanto/EDUCATION&#34;&gt;@github&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://example.org/static/schema_global_fr.jpg&#34; alt=&#34;logoagplv3&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>myCAT</title>
+      <link>http://example.org/fr/software/mycat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/fr/software/mycat/</guid>
+      <description>&lt;p&gt;myCAT est un concordancier, c&amp;rsquo;est-à-dire un moteur de recherche qui, en plus d&amp;rsquo;afficher des documents pertinents, montre également leur traduction (s&amp;rsquo;ils ont déjà été traduits) et aligne automatiquement les versions en langue source et en langue cible sur les occurrences des termes recherchés.&lt;/p&gt;
+
+&lt;p&gt;myCAT comporte deux modules :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;un aligneur de textes (Text Aligner)&lt;/li&gt;
+&lt;li&gt;un détecteur de citations (Quote Detector)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;L&amp;rsquo;aligneur de textes affiche et aligne automatiquement les versions source et cible d&amp;rsquo;un document donné.&lt;/p&gt;
+
+&lt;p&gt;Le détecteur de citations compare un document à traduire avec l&amp;rsquo;ensemble des documents déjà traduits auparavant pour détecter d&amp;rsquo;éventuels passages repris. Il affiche et aligne ensuite les versions source et cible de ce document de référence.&lt;/p&gt;
+
+&lt;p&gt;Ce qui rend myCAT unique, c&amp;rsquo;est que sa fonction d&amp;rsquo;alignement automatique repose sur des cartes d&amp;rsquo;alignement qui sont construites avec &lt;a href=&#34;https://www.statmt.org/moses/&#34;&gt;Moses&lt;/a&gt;, un outil de traduction automatique statistique. myCAT peut être employé pour n&amp;rsquo;importe quelle combinaison de langues; si aucune carte d&amp;rsquo;alignement n&amp;rsquo;a été établie pour la paire de langues considérée, un algorithme d&amp;rsquo;alignement géométrique sera employé par défaut.&lt;/p&gt;
+
+&lt;h2 id=&#34;online-demonstration-demo&#34;&gt;Online demonstration Demo&lt;/h2&gt;
+
+&lt;p&gt;Avant d&amp;rsquo;utiliser la démo, il est conseillé de lire les conseils ci-dessous.
+La démo est disponible sur : &lt;a href=&#34;http://srv3.olanto.org/TranslationText&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;langue-de-l-interface&#34;&gt;Langue de l&amp;rsquo;interface !&lt;/h3&gt;
+
+&lt;p&gt;L&amp;rsquo;interface de myCAT est complètement adaptable, nous avons un mécanisme dynamique pour l&amp;rsquo;internationalisation des interfaces. Actuellement nous avons traduit l&amp;rsquo;interface en 5 langues (en, fr, ar, es, ru). Si vous souhaitez rajouter une autre langue n&amp;rsquo;hésitez pas à nous jacques@olanto.org (contacter).&lt;/p&gt;
+
+&lt;h3 id=&#34;démarrage-rapide&#34;&gt;Démarrage rapide !&lt;/h3&gt;
+
+&lt;p&gt;Si vous souhaitez simplement jeter un coup d&amp;rsquo;oeil au fonctionnement de myCAT, la manière la plus simple est d&amp;rsquo;essayer l&amp;rsquo;Aligneur de textes (Text Aligner) et le Détecteur de citations (Quote Detector).&lt;/p&gt;
+
+&lt;h3 id=&#34;a-lire-au-préalable&#34;&gt;A lire au préalable !&lt;/h3&gt;
+
+&lt;p&gt;Si vous souhaitez tester notre version de démonstration de myCAT, voici quelques éléments à connaître au préalable :&lt;/p&gt;
+
+&lt;p&gt;Navigateurs acceptés: bien que myCAT ait été développé avec la technologie GWT de Google, qui permet en principe de faire fonctionner les logiciels dans la plupart des navigateurs, il est vivement recommandé d&amp;rsquo;employer une version récente de Mozilla Firefox ou Internet Explorer. Actuellement l&amp;rsquo;aligneur de texte de myCAT fonctionne correctement sous Chrome mais le détecteur de citations rencontre encore quelques difficultés. Nous travaillons dessus, et toutes les bonnes volontés sont les bienvenues pour régler le problème!&lt;/p&gt;
+
+&lt;p&gt;Un manuel de l&amp;rsquo;utilisateur (en anglais pour le moment) est disponible en ligne en cliquant sur le bouton HELP. Ce document détaille les différentes fonctionnalités du logiciel; il est vivement conseillé de le lire avant de tester ce dernier.&lt;/p&gt;
+
+&lt;p&gt;La version de démonstration de myCAT a été construite à partir d&amp;rsquo;un corpus comprenant plus d&amp;rsquo;un million de documents qui contiennent plus de dix millions de mots différents en 25 langues. Ce corpus provient essentiellement des sources suivantes:  &lt;a href=&#34;https://www.euromatrixplus.net/multi-un/&#34;&gt;The United Nations&amp;rsquo;Multilingual Parallel Text 2000-2009  &lt;/a&gt; et le &lt;a href=&#34;https://langtech.jrc.it/JRC-Acquis.html&#34;&gt;European Commission&amp;rsquo;s JRC-Acquis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;essai-de-l-aligneur-de-textes-text-aligner&#34;&gt;Essai de l&amp;rsquo;Aligneur de textes (Text Aligner)&lt;/h4&gt;
+
+&lt;p&gt;Définissez votre paire de langues dans les menus déroulants (Ex: EN-FR signifie anglais vers français). Les codes de langues à deux lettres sont conformes à la norme ISO 639-1.&lt;/p&gt;
+
+&lt;p&gt;Saisissez dans le champ de texte un mot ou une expression de la langue source choisie (dans notre exemple: anglais).&lt;/p&gt;
+
+&lt;p&gt;Cliquez sur le bouton GO de l&amp;rsquo;interface ou appuyez sur la touche ENTRÉE de votre clavier.&lt;/p&gt;
+
+&lt;p&gt;Cliquez sur l&amp;rsquo;un des documents dont le nom apparaît dans la liste des résultats (&amp;ldquo;Hit List&amp;rdquo;). Le terme recherché apparaîtra en surbrillance dans ce document, et la version cible sera affichée à côté et automatiquement alignée.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez vous déplacer d&amp;rsquo;une occurrence du terme à l&amp;rsquo;autre en cliquant sur les boutons &amp;lt;&amp;lt; ou &amp;gt;&amp;gt;.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez utiliser l&amp;rsquo;ascenseur vertical pour lire l&amp;rsquo;ensemble du document affiché. À tout moment vous pouvez cliquer deux fois sur un mot dans ce texte, puis cliquer sur le bouton &amp;ldquo;Align&amp;rdquo; pour voir la partie correspondante de la version cible.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez employer le bouton &amp;ldquo;Search&amp;rdquo; pour effectuer une recherche différente au sein du document affiché (par exemple si ce document contient beaucoup de terminologie utile).&lt;/p&gt;
+
+&lt;p&gt;Les documents affichés sont des conversions en texte simple des documents originaux (qui étaient généralement aux formats MS-Word ou PDF). Le bouton &amp;ldquo;Original&amp;rdquo; permet normalement d&amp;rsquo;afficher le document dans son format original. Néanmoins, dans cette version de démonstration, seuls les documents figurant dans la collection &amp;ldquo;Small Collection&amp;rdquo; peuvent aussi s&amp;rsquo;afficher en version originale. Si vous souhaitez tester le bouton &amp;ldquo;Original&amp;rdquo;, il convient donc de cliquer sur le bouton &amp;ldquo;Collection&amp;rdquo;, choisir &amp;ldquo;Small Collection&amp;rdquo; et cliquer sur &amp;ldquo;Set Selection&amp;rdquo;. Ainsi, tous les documents que vous trouverez proviendront de cette collection et pourront être affichés aussi sous leur format original.&lt;/p&gt;
+
+&lt;h4 id=&#34;testing-the-quote-detector&#34;&gt;Testing the Quote Detector&lt;/h4&gt;
+
+&lt;p&gt;Cliquez sur le bouton &amp;ldquo;Quote Detector&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Définissez votre paire de langues dans les menus déroulants.&lt;/p&gt;
+
+&lt;p&gt;Cliquez sur le bouton &amp;ldquo;Browse&amp;rdquo; pour téléverser le document que vous souhaitez analyser (un document d&amp;rsquo;exemple à analyser d&amp;rsquo;anglais en français peut être téléchargé &lt;a href=&#34;http://srv3.olanto.org/download/documentation/Test_document.docx&#34;&gt;ici&lt;/a&gt;.
+Note: dans la version de démonstration, les documents à soumettre au détecteur de citations sont tronqués après 3&amp;rsquo;000 caractères.&lt;/p&gt;
+
+&lt;p&gt;Cliquez sur le bouton GO. Le document résultant de l&amp;rsquo;analyse est affiché dans le cadre central; des statistiques sur l&amp;rsquo;analyse sont ajoutées à la fin de ce document.&lt;/p&gt;
+
+&lt;p&gt;##Téléchargements&lt;/p&gt;
+
+&lt;h3 id=&#34;mycat-4-1-0-pour-windows-64-bit-version&#34;&gt;myCAT 4.1.0 pour Windows, 64-bit version&lt;/h3&gt;
+
+&lt;p&gt;(testé sur Windows 7,8,10 et Windows 2008,2016 Server)
+Les fichiers d&amp;rsquo;installation de myCAT peuvent être téléchargés &lt;a href=&#34;http://srv3.olanto.org/download/myCAT/update-4.1.0/myCAT.zip&#34;&gt;ici&lt;/a&gt; (275 Mb).&lt;/p&gt;
+
+&lt;p&gt;SHA1 key: 5adc2f8a5e8819e9d4c035a5b907c7996416dd23&lt;/p&gt;
+
+&lt;h4 id=&#34;outils&#34;&gt;Outils&lt;/h4&gt;
+
+&lt;p&gt;Les logiciels Java, Tomcat et OpenOffice peuvent être téléchargé:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools7.zip&#34;&gt;java 7, tomcat 7&lt;/a&gt; (238 Mb) - sha1 :2B7DE1A6590E04B241A679451952256834A6C21B.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools8.zip&#34;&gt;java 8, tomcat 8&lt;/a&gt; (308 Mb) - sha1 :1968eb32f0fd56e9a811662e5d16770e7b993481.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools10.zip&#34;&gt;java 10, tomcat 9&lt;/a&gt; (555 Mb) - sha1 :
+c4e40feefc821425c9ab2d0064daed0862c447d8.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dans le fichier suivant, vous trouverez des batchs adaptés &lt;a href=&#34;http://srv3.olanto.org/download/win/install/run789.zip&#34;&gt;tomcat 7,8,9&lt;/a&gt; (1 Mb) - sha1 : 9a023005a810a2c7541c6a56a86abb30db7530f2&lt;/p&gt;
+
+&lt;p&gt;Il est recommandé de n&amp;rsquo;employer que ces distributions afin de disposer de la version requise.&lt;/p&gt;
+
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myCAT sur un serveur dédié équipé de Windows est décrite ici &lt;a href=&#34;http://srv3.olanto.org/download/win/install/myCAT2.1.03.zip&#34;&gt;generic doc&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;mycat-4-1-0-pour-gnu-linux-64-bit-version&#34;&gt;myCAT 4.1.0 pour GNU/Linux, 64-bit version&lt;/h3&gt;
+
+&lt;p&gt;(testé sur Ubuntu 12,14,16,&amp;amp; 18.04 LTS)
+Les fichiers d&amp;rsquo;installation de myCAT peuvent être téléchargé &lt;a href=&#34;http://srv3.olanto.org/download/myCAT/update-4.1.0/myCAT-linux.zip&#34;&gt;here&lt;/a&gt; (292 Mb).&lt;/p&gt;
+
+&lt;p&gt;SHA1 key: 90277bd5a7d0c36e7acd2a09695f34579402c763&lt;/p&gt;
+
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+
+&lt;p&gt;le fichier OpenOffice file peut être téléchargé &lt;a href=&#34;http://srv3.olanto.org/download/linux/install/Apache_OpenOffice_incubating_3.4.0_Linux_x86-64_install-deb_en-US.tar.gz&#34;&gt;here&lt;/a&gt; (171 Mb).&lt;/p&gt;
+
+&lt;p&gt;SHA1 key: 2B8071CF3F26C202BB7B0BE1AFD5DC2F21221614&lt;/p&gt;
+
+&lt;p&gt;The procedure to perform a standard installation of myCAT on a dedicated server running Ubuntu 18.04 LTS is described &lt;a href=&#34;http://srv3.olanto.org/download/documentation/myCat_Linux_install 18.04.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;ajouter-des-cartes-d-alignement&#34;&gt;Ajouter des Cartes d&amp;rsquo;alignement&lt;/h3&gt;
+
+&lt;p&gt;La version de base de myCAT est livrée avec les cartes d&amp;rsquo;alignement suivantes: anglais-arabe, anglais-espagnol, anglais-français, anglais-portugais et anglais-russe. Il est possible d&amp;rsquo;ajouter les paires de langues suivantes :&lt;/p&gt;
+
+&lt;p&gt;Anglais-Allemand &lt;a href=&#34;http://srv3.olanto.org/download/maps/ENDE.zip&#34;&gt;here&lt;/a&gt;
+Anglais-Chinois &lt;a href=&#34;http://srv3.olanto.org/download/maps/ENZH.zip&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ajouter-des-cartes-d-alignement-1&#34;&gt;Ajouter des Cartes d&amp;rsquo;alignement&lt;/h3&gt;
+
+&lt;p&gt;La version de base de myCAT est livrée avec les cartes d&amp;rsquo;alignement suivantes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;anglais-arabe&lt;/li&gt;
+&lt;li&gt;anglais-espagnol&lt;/li&gt;
+&lt;li&gt;anglais-français&lt;/li&gt;
+&lt;li&gt;anglais-portugais&lt;/li&gt;
+&lt;li&gt;anglais-russe&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il est possible d&amp;rsquo;ajouter les paires de langues suivantes :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;anglais-allemand&lt;/li&gt;
+&lt;li&gt;anglais-chinois (expérimental, tous les commentaires sont les bienvenus)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il suffit de télécharger ces fichiers et de les décompresser dans le dossier :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pour Windows:  C:\MYCAT\map&lt;/li&gt;
+&lt;li&gt;pour GNU/Linux:  ~/MYCAT/map&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;règles-de-nommage-des-documents&#34;&gt;Règles de nommage des documents&lt;/h3&gt;
+
+&lt;p&gt;Le corpus de documents bi-textes qui sera exploité par &lt;a href=&#34;http://example.org/software/myMT.en.md&#34;&gt;myMT&lt;/a&gt; doit être conforme aux &lt;a href=&#34;http://srv3.olanto.org/download/documentation/myCAT_doc_specs.pdf&#34;&gt;spécifications suivantes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cette distribution de myMT contient un très petit corpus de 48 documents qui permet de tester l&amp;rsquo;application dans les six langues suivantes: anglais, français, espagnol, russe, arabe et chinois. Ces documents sont organisés en trois collections: ONU (UNO), OMPI (WIPO) et OMC (WTO). Ce sont tous des documents publics qui ont été téléchargés depuis le site respectif de ces organisations.&lt;/p&gt;
+
+&lt;h2 id=&#34;source-licence&#34;&gt;source &amp;amp; licence&lt;/h2&gt;
+
+&lt;p&gt;Licence AGPL v3 - sources &lt;a href=&#34;https://github.com/olanto/MYCAT&#34;&gt;@GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;changelog&#34;&gt;changelog&lt;/h2&gt;
+
+&lt;p&gt;This document details the bug fixes and improvements in each new release of the myPREP software.&lt;/p&gt;
+
+&lt;h4 id=&#34;version-4-1-0-date-10-5-2018&#34;&gt;Version 4.1.0 date 10-5-2018&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Start myCAT from a URL with query in parameter
+&lt;a href=&#34;http://localhost:8080/TranslationText?searchquery=&amp;quot;report&amp;quot;&#34;&gt;http://localhost:8080/TranslationText?searchquery=&amp;quot;report&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-4-0-15-date-7-3-2017&#34;&gt;Version 4.0.15 Date: 7-3- 2017&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;WebService to Call Quote Detector&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;WebService to Merge Quote Detection with different profiles into the same documents&lt;/li&gt;
+&lt;li&gt;Improve accuracy of Quote Detector (remove stop words)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-3-7-0-date-10-1-2016&#34;&gt;Version 3.7.0 Date: 10 -1- 2016&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add a checkbox ‘Rem First’ into QD to remove first reference.&lt;/li&gt;
+&lt;li&gt;Add a checkbox ‘Fast’ into QD to improve the quality of references (check=fast, uncheck=accurate).&lt;/li&gt;
+&lt;li&gt;Open QD from an URL (&lt;a href=&#34;http://localhost:8080/TranslationText?QDfile=C:/MYCAT/corpus/reftest/Doc_EN_XXX_Refdoc.html&#34;&gt;http://localhost:8080/TranslationText?QDfile=C:/MYCAT/corpus/reftest/Doc_EN_XXX_Refdoc.html&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Improve initial load of ZIP Cache (new parameter IDX_ZIP_CACHE_FASTLOAD)&lt;/li&gt;
+&lt;li&gt;Improve accuracy of Quote Detector (new parameter REALREF_MAX_CHECK)&lt;/li&gt;
+&lt;li&gt;Improve performance of Quote Detector (new parameter REF_MAX_THREAD)&lt;/li&gt;
+&lt;li&gt;Accept file renaming (Only for Windows) (new parameter FILE_RENAME, FILE_COLLECTION_CASE, FILE_NAME_CASE, FILE_EXTENTION_CASE)&lt;/li&gt;
+&lt;li&gt;Accept to rename the “Glossaries” folder (new parameter GLOSS_NAME)&lt;/li&gt;
+&lt;li&gt;Improve detection of abbreviation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-3-3-0-date-october-17th-2014&#34;&gt;Version 3.3.0 Date: October 17th 2014&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed a bug for the EXACT CLOSE query calculation&lt;/li&gt;
+&lt;li&gt;Fixed a bug in cache management anb objects identification&lt;/li&gt;
+&lt;li&gt;Added a resize button to the interface of the Bitext Aligner called from externat application&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-3-2-4-date-july-7th-2014&#34;&gt;Version 3.2.4 Date: July 7th 2014&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed a filtering problem with aglutinative lanugages&lt;/li&gt;
+&lt;li&gt;Fixed a bug for exact queries that created highlight problems: stop words were not taken into consideration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-3-2-3-date-may-24th-2014&#34;&gt;Version 3.2.3 Date: May 24th 2014&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Enhanced features for highlighting exact expressions (more precise documents and more precise highlights)&lt;/li&gt;
+&lt;li&gt;Fixed a filtering problem with arabic language into query field&lt;/li&gt;
+&lt;li&gt;Fixed a filtering problem in the query field with the special characters: &amp;lsquo;_&amp;lsquo;, &amp;lsquo;/&amp;rsquo; and &amp;lsquo;-&amp;rsquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-3-2-2-date-april-24th-2014&#34;&gt;Version 3.2.2 Date: April 24th 2014&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New querying possibilities: Accept wildChar (only one fuzzy term) in a multi-term expression at any position (like: global* economic)&lt;/li&gt;
+&lt;li&gt;New querying possibilities: Accept CLOSE between two exact expressions (like: &amp;ldquo;global&amp;rdquo; CLOSE &amp;ldquo;reporting&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Improved line segmentation (5 times faster)&lt;/li&gt;
+&lt;li&gt;Normalized query field with the same replaceChar than line segmentation&lt;/li&gt;
+&lt;li&gt;Fixed a filtering problem into query field (Keep char with accent or Chinese char)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-3-2-1-date-april-14th-2014&#34;&gt;Version 3.2.1 Date: April 14th 2014&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixing tokenization problems&lt;/li&gt;
+&lt;li&gt;Adding filters for queries to remove special characters&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-3-1-1-date-march-21st-2014&#34;&gt;Version 3.1.1 Date: March 21st 2014&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixing the bug of exact expressions when highlighting results within the displayed documents.&lt;/li&gt;
+&lt;li&gt;Faster version of alignment computing for very large documents (&amp;gt; 20&amp;rsquo;000 paragraphs).&lt;/li&gt;
+&lt;li&gt;Adapting text direction automatically depending on the language (e.g. AR)&lt;/li&gt;
+&lt;li&gt;Adapting regular expressions for the exact matching.&lt;/li&gt;
+&lt;li&gt;Fixing double call of aligned documents when clicking on a document.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-3-1-0-date-february-2nd-2014&#34;&gt;Version 3.1.0 Date: February 2nd 2014&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixing the bug of loss focus in Firefox and Chrome when highlighting results within the displayed documents.&lt;/li&gt;
+&lt;li&gt;Updating docx and pdf converters with the latest libreries.&lt;/li&gt;
+&lt;li&gt;Improved alignment for very large documents (&amp;gt; 20&amp;rsquo;000 paragraphs).&lt;/li&gt;
+&lt;li&gt;Dynamic resize of the Graphical User Interface to be adapted automatically to the client&amp;rsquo;s monitor or browser&amp;rsquo;s dimentions.&lt;/li&gt;
+&lt;li&gt;Removing extra blanks for chinese when displaying the document&amp;rsquo;s content.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;New Features in the Text Aligner&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Adding new parameters or regular expression, special characters and respect Case for the exact matching.&lt;/li&gt;
+&lt;li&gt;Adding a new feature for a better tokenization of the query (removing or normalizing special characters).&lt;/li&gt;
+&lt;li&gt;Fixing stop words highlighting in exact queries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-2-4-01-date-november-26th-2013&#34;&gt;Version 2.4.01 Date: November 26th 2013&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Improved alignment for very large documents.&lt;/li&gt;
+&lt;li&gt;Bug fix for Glossaries.&lt;/li&gt;
+&lt;li&gt;Load txt from a zip.&lt;/li&gt;
+&lt;li&gt;Process the highlight of expressions resulting from a &amp;ldquo;NEAR&amp;rdquo; query and taking into account the carriage return.&lt;/li&gt;
+&lt;li&gt;Check the consistency of the index and prevent the server from starting if a problem is detected.&lt;/li&gt;
+&lt;li&gt;Manage abreviations within the indexed documents.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-2-3-01-date-june-30th-2013&#34;&gt;Version 2.3.01 Date: June 30th 2013&lt;/h4&gt;
+
+&lt;p&gt;*New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Complete documentation for CSS and parameters of the Graphical User Interface.&lt;/li&gt;
+&lt;li&gt;Configurable converter open to all other converting tools, useful also in command line.&lt;/li&gt;
+&lt;li&gt;Special characters normalization during segmentation of converted documents.&lt;/li&gt;
+&lt;li&gt;Implementation of a cache zip for documents in order to enhance system performances especially for the exact matching and Maps building.&lt;/li&gt;
+&lt;li&gt;Maps construction is implemented as a parallel process for better performances.&lt;/li&gt;
+&lt;li&gt;Dynamic switch between different languages representing the user interface.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;New Features in the Text Aligner&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Automatic scrolling enhanced for better positionning ans highlight to cope with all browsers.&lt;/li&gt;
+&lt;li&gt;Adding a sophisticated display for the highlighted hits in the status bar (Hit number/Total number).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;New Features in the Self-Quote Detector&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Adding internal links in the referenced document for top and statistics.&lt;/li&gt;
+&lt;li&gt;Source verification in referenced documents.&lt;/li&gt;
+&lt;li&gt;Documents display widget has the same behavior and functionnalities as for the TextAligner&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-2-2-01-date-may-9th-2013&#34;&gt;Version 2.2.01 Date: May 9th 2013&lt;/h4&gt;
+
+&lt;p&gt;New Features in the Text Aligner&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Exact matching for queries.&lt;/li&gt;
+&lt;li&gt;Adding a carriage return in all documents to separate paragraphs for better visualization.&lt;/li&gt;
+&lt;li&gt;Enhancing highlighting occurrences of expressions with the &amp;ldquo;NEAR&amp;rdquo; operator.&lt;/li&gt;
+&lt;li&gt;Expressions that exceed paragraphs and are on many lines are now considered in search results inside the document and also highlighted.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-2-1-05-date-march-11th-2013&#34;&gt;Version 2.1.05 Date: March 11th 2013&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Adding date and time to logs names.&lt;/li&gt;
+&lt;li&gt;Case sensitive/insensitive for document search (/&amp;ldquo;XXX&amp;rdquo;).&lt;/li&gt;
+&lt;li&gt;Better compatibility with Firefox and IE thanks to the new version of GWT (Google Web Toolkit).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;New Features in the Self-Quote Detector&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is now possible to adapt document font in the css.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-2-1-03-date-7-december-2012&#34;&gt;Version 2.1.03 Date: 7 December 2012&lt;/h4&gt;
+
+&lt;p&gt;New Features relating to the overall suite myCAT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Paths are now relative in the configuration files to allow for various access modes simultaneously (e.g. intranet access and web access).&lt;/li&gt;
+&lt;li&gt;It is now possible to de-activate the maximization of the browser when opening myCAT.&lt;/li&gt;
+&lt;li&gt;Better compatibility with Firefox and IE thanks to the new version of GWT (Google Web Toolkit).&lt;/li&gt;
+&lt;li&gt;The messages displayed by the Java program are clearer (the * English language was not correct in the previous version).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;New Features in the Text Aligner&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Better indexing of capital characters with accents (ex : a search on a word like «État» are now correctly processed).&lt;/li&gt;
+&lt;li&gt;Glossaries automatically come at the top of search results in the Hit List.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;New Features in the Quote Detector&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is now possible to upload a document up to 20 MB (previously it was limited to 3 MB).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;New Features in the Self-Quote Detector&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is now possible to upload a document up to 20 MB (previously it was limited to 3 MB).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-2-0-date-30-november-2012&#34;&gt;Version 2.0 Date: 30 November 2012&lt;/h4&gt;
+
+&lt;p&gt;New Features in the Text Aligner&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Search is now possible on file names.&lt;/li&gt;
+&lt;li&gt;Navigation by tabs from the Text Aligner to other myCAT modules.&lt;/li&gt;
+&lt;li&gt;All messages are grouped in a bottom bar which also includes a link to Olanto’s website and a “Feedback” mailto link.&lt;/li&gt;
+&lt;li&gt;Collection priority setting: Search results are displayed in the order in which the collections were ticked in the Collection Box.&lt;/li&gt;
+&lt;li&gt;Wildcard: the * joker character can be used anywhere in a word to replace one or several characters.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;New Features in the Quote Detector&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Quotes are now highlighted in a yellow background.&lt;/li&gt;
+&lt;li&gt;A section containing statistics about the quotes is appended at the bottom of the analyzed document.&lt;/li&gt;
+&lt;li&gt;It is now possible to save the resulting HTML file of an analyzed document, and to reload it later in the Quote Detector so as to use the references without performing the analysis again.&lt;/li&gt;
+&lt;li&gt;A Self-Quote Detector is now available&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Self-Quote Detector is a tool which detects whether some expressions are repeated within a document. If an expression is used several times across the text, it will find it and turn it into a hypertext so the user can navigate from an occurrence of that expression to the next one. This feature is useful if the user wants to see a specific expression in the various contexts in which it is used in the document to be translated, or if the translation must be shared between several translators.&lt;/p&gt;
+
+&lt;p&gt;The result of the Self-Quote Detector is an HTML file which can be saved so it can be open and used later in a browser independently from the application.&lt;/p&gt;
+
+&lt;h4 id=&#34;version-1-1-1-b-date-31-july-2012&#34;&gt;Version 1.1.1.b Date: 31 July 2012&lt;/h4&gt;
+
+&lt;p&gt;Bug Fixes&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;myCAT is now based on Java 7, Tomcat 7 and OpenOffice 3.4 (this solves some recently-detected vulnerabilities).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Improvements&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The following modifications can now be performed without modifying the Java source code in Netbeans, by only modifying external XML files (see the new installation manual):
+**  Adding languages
+** Placing the corpus, the index and the alignment maps in a different location from C:\ (which is myCAT&amp;rsquo;s main location).&lt;/li&gt;
+&lt;li&gt;Thus the source code does not have to be distributed within the application anymore.&lt;/li&gt;
+&lt;li&gt;The internal folder structure of myCAT was modified accordingly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-1-1-1-a-date-16-july-2012&#34;&gt;Version 1.1.1.a Date: 16 July 2012&lt;/h4&gt;
+
+&lt;p&gt;Bug Fixes&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In QD the quote marks were overlapping when two references were immediately following each other in the analyzed text. The GWT code was corrected.&lt;/li&gt;
+&lt;li&gt;The blue bars indicating the probable location of the relevant text part in QD were sometimes much too long or too short. The GWT code was corrected.&lt;/li&gt;
+&lt;li&gt;A search for figures separated by commas or dots did not retrieve any result. This was corrected with a generic character which is the blank character: when looking for a number which could be separated by commas, dots or apostrophes, users now simple put a blank space instead of those characters and the string is retrieved whatever the original character. The indexer was corrected.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Improvements&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The underscore character &amp;ldquo;_&amp;rdquo; is now indexed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-1-1-1-date-june-2012&#34;&gt;Version 1.1.1 Date: June 2012&lt;/h4&gt;
+
+&lt;p&gt;Bug Fixes&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mozilla Firefox was not correctly supported in QD. The GWT code was corrected.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Improvements&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The minimum number of consecutive words in QD was reduced from 6 to 3.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;version-1-1-date-february-2012&#34;&gt;Version 1.1 Date: February 2012&lt;/h4&gt;
+
+&lt;p&gt;Bug Fixes&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A search including numbers before letters did not work (e.g. &amp;ldquo;29 November 2011&amp;rdquo; could not be found). The indexer was corrected.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Improvements&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Graphic User Interfaces were colorized.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>myCLASS</title>
+      <link>http://example.org/fr/software/myclass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/fr/software/myclass/</guid>
+      <description>&lt;p&gt;MyCLASS est un classifieur automatique de documents.
+&lt;/p&gt;
+
+&lt;h2 id=&#34;historique&#34;&gt;Historique&lt;/h2&gt;
+
+&lt;p&gt;La première version du projet date de 2003 (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/categ_wipo_icic03.pdf&#34;&gt;doc2003&lt;/a&gt;). Depuis cette date, il a été régulièrement amélioré pour pouvoir traiter des jeux d&amp;rsquo;entrainement (30 millions de documents) et des classifications (70&amp;rsquo;000 classes) de plus en plus volumineuses. il a été principalement utilisé dans le domaine de la classification des brevets par L&amp;rsquo;OMPI (voir &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-642-19231-9_12&#34;&gt;springer2011&lt;/a&gt;). MYCLASS a été aussi en compétition dans les conférences CLEF (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/CLEF2010wn-CLEF-IP-GuyotEt2010.pdf&#34;&gt;clefguyot2010&lt;/a&gt;)(&lt;a href=&#34;http://srv3.olanto.org/download/documentation/CLEF2010wn-CLEF-IP-PiroiEt2010.pdf&#34;&gt;clefpiroi2010&lt;/a&gt;).
+Ces dernières années ont privilégié la performance et la qualité de l&amp;rsquo;entrainement. De nouvelles perspectives sont ouvertes en utilisant la traduction automatique afin de n&amp;rsquo;avoir qu&amp;rsquo;un classifieur dans une langue pivot voir (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/AutomaticCategorization2017.pdf&#34;&gt;wipo2017&lt;/a&gt;) et (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/IPCCAT_ICSDV_2018.pdf&#34;&gt;wipo2018&lt;/a&gt;). Le classifieur a aussi été utilisé dans des projets sur des corpus de nouvelles avec Reuter et Dow Jones. Nous avons expérimenté et comparé que l&amp;rsquo;utilisation des réseaux de neurones est performante et suffisante pour la classification de texte, dans le cas où les textes ne comportent pas d&amp;rsquo;information &amp;ldquo;cachée&amp;rdquo;. Par exemple, l&amp;rsquo;information &amp;ldquo;cachée&amp;rdquo; est définie dans le style du texte (ironie, cynisme, emphase, …). Dans ces cas l&amp;rsquo;utilisation du &amp;ldquo;Deep Learning&amp;rdquo; est souvent plus appropriée (voir (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/deeplearningandclassification.pdf&#34;&gt;ai2015&lt;/a&gt;))&lt;/p&gt;
+
+&lt;p&gt;Ce projet a pour objectifs:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;D&amp;rsquo;automatiser la classification de texte&lt;/li&gt;
+&lt;li&gt;De créer des environnements interactifs pour les classifications hiérarchiques&lt;/li&gt;
+&lt;li&gt;D&amp;rsquo;être une solution prête à l&amp;rsquo;emploi dans le domaine de la classification de brevets.&lt;/li&gt;
+&lt;li&gt;De créer une référence pour la performance et l&amp;rsquo;efficacité pour l&amp;rsquo;entrainement et le déploiement&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;qui-peut-utiliser-ces-outils&#34;&gt;Qui peut utiliser ces outils?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;L&amp;rsquo;étudiant désirant compléter ses connaissances sur les outils de classification&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;enseignant désirant expérimenter ce type de classifieur&lt;/li&gt;
+&lt;li&gt;Le professionnel indépendant voulant explorer les possibilités de la classification automatique&lt;/li&gt;
+&lt;li&gt;Une organisation voulant explorer et mettre en place la classification automatique dans ses processus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;comment-contribuer-à-ce-projet&#34;&gt;Comment contribuer à ce projet?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;En installant et en utilisant ces outils&lt;/li&gt;
+&lt;li&gt;En ajoutant des informations dans ce wiki pour faciliter l&amp;rsquo;utilisation de ces outils&lt;/li&gt;
+&lt;li&gt;en traduisant ces pages dans d&amp;rsquo;autres langues&lt;/li&gt;
+&lt;li&gt;en proposant des nouvelles fonctionnalités ou des nouveaux outils dans l&amp;rsquo;installation de base&lt;/li&gt;
+&lt;li&gt;en ajoutant de nouvelles ressources (corpus de test) dans github sous votre compte.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;comment-commencer&#34;&gt;Comment commencer?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Je veux installer les outils &lt;a href=&#34;https://github.com/olanto/MYCLASS/wiki/How_to_install_FR&#34;&gt;&amp;gt;&amp;gt; Installer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Je veux tester les outils &lt;a href=&#34;https://github.com/olanto/MYCLASS/wiki/How_to_use_FR&#34;&gt;&amp;gt;&amp;gt; Utiliser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Je veux contribuer &lt;a href=&#34;https://github.com/olanto/MYCLASS/wiki/How_to_contribute_FR&#34;&gt;&amp;gt;&amp;gt; Contribuer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>myMT</title>
+      <link>http://example.org/fr/software/mymt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/fr/software/mymt/</guid>
+      <description>&lt;p&gt;myMT est un outil de traduction automatique basé sur le logiciel libre de traduction statistique &lt;a href=&#34;https://www.statmt.org/moses/&#34;&gt;Moses&lt;/a&gt;. Une démonstration est accessible ici (&lt;a href=&#34;http://srv2.olanto.org/WebTranslator/&#34;&gt;Demo&lt;/a&gt;) (la démonstration est basée sur le corpus Textes parallèles multilingues 2000-2009 des Nations Unies  anglais/français).&lt;/p&gt;
+
+&lt;p&gt;myMT est composé de deux parties : les serveurs de traduction (back-end) et le serveur de gestion (front-end).  Sur les serveurs de traduction sont stockés les modèles de traduction et assurent la traduction. Le serveur de gestion assure le découpage en phrase des textes à traduire et gère les traductions en fonction des langues.&lt;/p&gt;
+
+&lt;p&gt;myMT permet de construire des infrastructures complexe possédant de nombreux serveurs de traduction permettant de traduire simultanément plusieurs phrases à la fois et de gérer plusieurs couple de langues. La spécification de la configuration est faite dans un seul fichier XML. Le démarrage et la maintenance est automatisée.&lt;/p&gt;
+
+&lt;p&gt;myMT met à disposition une interface graphique accessible avec un navigateur qui permet à l’utilisateur de sélectionner les langues de la traduction, de sélectionner (ou télécharger) le texte à traduire. Le résultat de la traduction peut être retourné par email.&lt;/p&gt;
+
+&lt;p&gt;myMT convertit les documents en texte pour la traduction. Il supporte aussi la traduction de document .docx en préservant la mise en page. Il est aussi possible de l’utiliser avec .sdlxliff.&lt;/p&gt;
+
+&lt;p&gt;Le serveur de traduction peut aussi être utilisé pour construire de nouveaux modèles de traduction. myPREP peut être utilisé pour créer les corpus d’entrainement.&lt;/p&gt;
+
+&lt;p&gt;myMT peut être installé aussi bien sous Windows que sous GNU/Linux (Ubuntu); les liens correspondants sont proposés ci-dessous. Quant aux sources, elles sont identiques pour les deux versions.&lt;/p&gt;
+
+&lt;h2 id=&#34;online-demonstration&#34;&gt;Online Demonstration&lt;/h2&gt;
+
+&lt;p&gt;Essayez &lt;a href=&#34;http://srv3.olanto.org/WebTranslator/&#34;&gt;ceci&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;téléchargement&#34;&gt;Téléchargement&lt;/h2&gt;
+
+&lt;h3 id=&#34;mymt-3-0-pour-windows-et-gnu-linux&#34;&gt;myMT 3.0 pour Windows et GNU/Linux&lt;/h3&gt;
+
+&lt;p&gt;(testé sur Windows 7,8, Windows 2008 Server, Ubuntu 14.04 LTS)&lt;/p&gt;
+
+&lt;p&gt;Les fichiers d&amp;rsquo;installation de myMT-Front-End peuvent être téléchargé &lt;a href=&#34;http://srv3.olanto.org/download/myMT/MYMT.zip&#34;&gt;ici&lt;/a&gt; (65 Mo).
+    SHA1 ke: a9eae820564b1d66517d830cd37692e8&lt;/p&gt;
+
+&lt;p&gt;Les fichiers d&amp;rsquo;installation de myMT-Back-End peuvent être téléchargés &lt;a href=&#34;http://srv3.olanto.org/download/myMT.14/back-end-3.0.1.tar.gz&#34;&gt;ici&lt;/a&gt; (153 Mo).
+    SHA1 key: 484aa81da392e0ed3c17b7e5071ce2113981f271&lt;/p&gt;
+
+&lt;h3 id=&#34;outils-pour-windows&#34;&gt;Outils pour Windows&lt;/h3&gt;
+
+&lt;p&gt;The Java, Tomcat et OpenOffice peuvent être téléchargé &lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools.zip&#34;&gt;ici&lt;/a&gt; (232 Mb).&lt;/p&gt;
+
+&lt;p&gt;SHA1 key: 2B7DE1A6590E04B241A679451952256834A6C21B&lt;/p&gt;
+
+&lt;h3 id=&#34;outils-pour-linux&#34;&gt;Outils pour Linux&lt;/h3&gt;
+
+&lt;p&gt;The OpenOffice peut être téléchargé &lt;a href=&#34;http://srv3.olanto.org/download/linux/install/Apache_OpenOffice_incubating_3.4.0_Linux_x86-64_install-deb_en-US.tar.gz&#34;&gt;ici&lt;/a&gt; (171 Mb).&lt;/p&gt;
+
+&lt;p&gt;SHA1 key: 2B8071CF3F26C202BB7B0BE1AFD5DC2F21221614&lt;/p&gt;
+
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;Installationde myMT&lt;/p&gt;
+
+&lt;p&gt;myMT-Front-End pour Windows   (prerequisites &lt;a href=&#34;http://srv3.olanto.org/download/myMT/documentation/prerequise_window_install.pdf&#34;&gt;ici&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myMT-Front-End sur un serveur dédié équipé de Windows est décrite  &lt;a href=&#34;http://srv3.olanto.org/download/myMT/documentation/Installing_Front-End_Server_V2.0.pdf&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;myMT-Front-End pour GNU/Linux  (prerequisites  &lt;a href=&#34;http://srv3.olanto.org/download/myMT/documentation/prerequise_linux_install.pdf&#34;&gt;ici&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;myMT-Front-End pour GNU/Linux  (prérequis ici, en anglais)&lt;/p&gt;
+
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myMT-Front-End sur un serveur dédié équipé de Ubuntu 12.04 LTS est décrite &lt;a href=&#34;http://srv3.olanto.org/download/myMT/documentation/Installing_Front-End_Server_V2.0.pdf&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;myMT-Back-End for GNU/Linux&lt;/p&gt;
+
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myMT-Back-End sur un serveur dédié équipé de Ubuntu 14.04 LTS est décrite &lt;a href=&#34;http://srv3.olanto.org/download/myMT/documentation/Installing_Back-End_Server_V2.0_14.04.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;source-licence&#34;&gt;source &amp;amp; licence&lt;/h2&gt;
+
+&lt;p&gt;Licence AGPL v3 - sources &lt;a href=&#34;https://github.com/olanto/MYMT&#34;&gt;@GitHub&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>myPREP</title>
+      <link>http://example.org/fr/software/myprep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/fr/software/myprep/</guid>
+      <description>&lt;p&gt;myPREP est un aligneur de textes, c’est-à-dire un outil qui permet d’aligner automatique deux à deux les documents dans un corpus multilingue. Le résultat de l’alignement est une mémoire de traduction au format TMX. L’alignement se fait au niveau phrase.&lt;/p&gt;
+
+&lt;p&gt;myPREP permet aussi la production de corpus d’entraînement pour la traduction statistique (format &lt;a href=&#34;https://www.statmt.org/moses/&#34;&gt;Moses&lt;/a&gt;). Ces corpus sont divisés en plusieurs parties permettant l’entraînement, le réglage et l’évaluation.&lt;/p&gt;
+
+&lt;p&gt;myPREP permet aussi l’alignement de corpus comparables. Le résultat de l’alignement est un ensemble de pair de phrases associés à un score, le nombre de termes alignés, la longueur des phrases. Ces paramètres permettent de filtrer les alignements.&lt;/p&gt;
+
+&lt;p&gt;myPREP nécessite des corpus de documents segmentés au format texte UTF-8. Le convertisseur et le segmenteur de myCAT sont inclus dans l’installation de myPREP.&lt;/p&gt;
+
+&lt;p&gt;myPREP peut être installé aussi bien sous Windows que sous GNU/Linux (testé sous Ubuntu 12.04 LTS); les liens correspondants sont proposés ci-dessous. Quant aux sources, elles sont identiques pour les deux versions.&lt;/p&gt;
+
+&lt;h2 id=&#34;téléchargements&#34;&gt;Téléchargements&lt;/h2&gt;
+
+&lt;p&gt;myPREP 2.0 pour Windows et GNU/Linux
+(testé sur Windows 7, Windows 2008 Server, Ubuntu 12.04 LTS)&lt;/p&gt;
+
+&lt;p&gt;Les fichiers d&amp;rsquo;installation de myPREP peuvent être téléchargés  &lt;a href=&#34;http://srv3.olanto.org/download/myPREP/MYPREP.zip&#34;&gt;download&lt;/a&gt; (62 Mo).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SHA1 key: ed84e05ec106527e1c557836a9a817a8&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;outils-pour-windows&#34;&gt;Outils pour Windows&lt;/h3&gt;
+
+&lt;p&gt;Les logiciels Java, Tomcat et OpenOffice peuvent être téléchargés ici &lt;a href=&#34;http://srv3.olanto.org/download/myPREP/MYPREP.zip&#34;&gt;download&lt;/a&gt; (232 Mb). Il est recommandé de n&amp;rsquo;employer que ces distributions afin de disposer de la version requise&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SHA1 key: 2B7DE1A6590E04B241A679451952256834A6C21B&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;outils-pour-gnu-linux&#34;&gt;Outils pour GNU/Linux&lt;/h3&gt;
+
+&lt;p&gt;Les logiciels Java, Tomcat et OpenOffice peuvent être téléchargés &lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools.zip&#34;&gt;ici&lt;/a&gt; (171 Mb). Il est recommandé de n&amp;rsquo;employer que ces distributions afin de disposer de la version requise&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SHA1 key: 2B8071CF3F26C202BB7B0BE1AFD5DC2F21221614&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myPREP est décrite  &lt;a href=&#34;https://olanto.github.io/docs/Installing_myPREP_V2.0_EN.pdf&#34;&gt;ici (anglais)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;ajouter-des-cartes-d-alignement&#34;&gt;Ajouter des Cartes d&amp;rsquo;alignement&lt;/h3&gt;
+
+&lt;p&gt;La version de base de myCAT est livrée avec les cartes d&amp;rsquo;alignement suivantes: anglais-arabe, anglais-espagnol, anglais-français, anglais-portugais et anglais-russe. Il est possible d&amp;rsquo;ajouter les paires de langues suivantes :&lt;/p&gt;
+
+&lt;p&gt;Anglais-Allemand &lt;a href=&#34;http://srv3.olanto.org/download/maps/ENDE.zip&#34;&gt;here&lt;/a&gt;
+Anglais-Chinois &lt;a href=&#34;http://srv3.olanto.org/download/maps/ENZH.zip&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Veuillez lire la documentation : Ajouter des Cartes d&amp;rsquo;alignement dans la documentation de myCAT.&lt;/p&gt;
+
+&lt;h2 id=&#34;changelog&#34;&gt;changelog&lt;/h2&gt;
+
+&lt;p&gt;Détail des modifications&lt;/p&gt;
+
+&lt;p&gt;Version 2.0 Date: 25 June 2013
+* Initial release&lt;/p&gt;
+
+&lt;h2 id=&#34;source-licence&#34;&gt;source &amp;amp; licence&lt;/h2&gt;
+
+&lt;p&gt;Licence AGPL v3 - sources &lt;a href=&#34;https://github.com/olanto/MYPREP&#34;&gt;@GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+
+&lt;h3 id=&#34;installation-de-myprep&#34;&gt;Installation de myPREP&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;myPREP pour Windows  (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/prerequise_window_install.pdf&#34;&gt;prérequis ici&lt;/a&gt; , en anglais)
+La procédure permettant d&amp;rsquo;effectuer une installation classique de myPREP sur un serveur dédié équipé de Windows est décrite ici (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/Installing_myPREP_V2.0_EN.pdf&#34;&gt;installer&lt;/a&gt; en anglais).&lt;/li&gt;
+&lt;li&gt;myPREP pour GNU/Linux  (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/prerequise_linux_install.pdf&#34;&gt;prérequis ici&lt;/a&gt; , en anglais)
+La procédure permettant d&amp;rsquo;effectuer une installation classique de myPREP sur un serveur dédié équipé de Ubuntu 12.04 LTS est décrite ici (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/Installing_myPREP_V2.0_EN.pdf&#34;&gt;installer&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ajouter-des-cartes-d-alignement-1&#34;&gt;Ajouter des Cartes d&amp;rsquo;alignement&lt;/h3&gt;
+
+&lt;p&gt;La version de base de myCAT est livrée avec les cartes d&amp;rsquo;alignement suivantes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;anglais-arabe&lt;/li&gt;
+&lt;li&gt;anglais-espagnol&lt;/li&gt;
+&lt;li&gt;anglais-français&lt;/li&gt;
+&lt;li&gt;anglais-portugais&lt;/li&gt;
+&lt;li&gt;anglais-russe&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il est possible d&amp;rsquo;ajouter les paires de langues suivantes :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;anglais-allemand&lt;/li&gt;
+&lt;li&gt;anglais-chinois (expérimental, tous les commentaires sont les bienvenus)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il suffit de télécharger ces fichiers et de les décompresser dans le dossier :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pour Windows:  C:\MYCAT\map&lt;/li&gt;
+&lt;li&gt;pour GNU/Linux:  ~/MYCAT/map&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;règles-de-nommage-des-documents&#34;&gt;Règles de nommage des documents&lt;/h3&gt;
+
+&lt;p&gt;Le corpus de documents bi-textes qui sera exploité par &lt;a href=&#34;http://example.org/software/myMT.en.md&#34;&gt;myMT&lt;/a&gt; doit être conforme aux &lt;a href=&#34;http://srv3.olanto.org/download/documentation/myCAT_doc_specs.pdf&#34;&gt;spécifications suivantes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cette distribution de myMT contient un très petit corpus de 48 documents qui permet de tester l&amp;rsquo;application dans les six langues suivantes: anglais, français, espagnol, russe, arabe et chinois. Ces documents sont organisés en trois collections: ONU (UNO), OMPI (WIPO) et OMC (WTO). Ce sont tous des documents publics qui ont été téléchargés depuis le site respectif de ces organisations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>myTERM</title>
+      <link>http://example.org/fr/software/myterm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/fr/software/myterm/</guid>
+      <description>&lt;p&gt;myTerm est un Système de Gestion de base de données Terminologiques basé sur le format TBX-Basic.
+&lt;/p&gt;
+
+&lt;p&gt;myTerm comporte différent modules:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;un extracteur de terminologies: basé sur un algorithme générique supportant différent modèles, le parseur parcours des fiches terminologiques dans des formats hétérogènes et stocke leur contenu dans une base de données terminologique.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;un explorateur de terminologie: les entrées terminologiques publiques d&amp;rsquo;une institution sont généralement publiées sous forme de fichiers sur le web. Ce module permet de parcourir les terminologies moyennant des requêtes sophistiquées et permet de mettre les terminologies d&amp;rsquo;une institution à disposition d&amp;rsquo;un large public.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;un éditeur de terminologie: un rédacteur est un utilisateur qui a les privilèges de créer, mettre à jour, supprimer et soumettre à la révision des entrées terminologiques dans un ensemble de langues qui lui est attribué. Ce module permet d&amp;rsquo;effectuer ce genre d&amp;rsquo;opérations et d&amp;rsquo;attribuer à chaque rédacteur un espace de travail.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;un réviseur de terminologies:  un réviseur est un utilisateur qui a les privilèges de valider, publier, remettre à l&amp;rsquo;édition et supprimer des entrées terminologiques dans un ensemble de langues qui lui est attribué. Ce module permet d&amp;rsquo;effectuer ce genre d&amp;rsquo;opérations et d&amp;rsquo;attribuer à chaque réviseur un espace de travail.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;un module d&amp;rsquo;administration: un administrateur a la possibilité de gérer les utilisateurs, les langues, et les ressources de la base de données terminologique.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ce qui rend myTerm unique est sa capacité à offrir un ensemble complet de gestion intégrée de ressources terminologiques.&lt;/p&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;Avant d&amp;rsquo;utilisier la démo, il est fortement recommandé de lire les indications ci-dessous.&lt;/p&gt;
+
+&lt;p&gt;User: demo Password:demo (% est le caractère jocker)&lt;/p&gt;
+
+&lt;p&gt;La démo (en anglais) est valable au: &lt;a href=&#34;http://srv3.olanto.org/myTerm&#34;&gt;English&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;La démo (en français) est valable au:  &lt;a href=&#34;http://srv3.olanto.org/myTerm?lang=fr&#34;&gt;French&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;interface de myTerm est complètement adaptable, nous avons un mécanisme dynamique pour l&amp;rsquo;internationalisation des interfaces. Actuellement nous avons traduit l&amp;rsquo;interface en 2 langues (en, fr). Si vous souhaitez rajouter une autre langue n&amp;rsquo;hésitez pas à nous contacter.&lt;/p&gt;
+
+&lt;p&gt;Nous avons importé des terminologies multilingues à partir de différentes sources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IATE: 24 langues, 8.8 Mo termes, origine:&lt;a href=&#34;https://iate.europa.eu/about_IATE.html&#34;&gt;IATE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;FISH_NAME: (EN, ES, FR, LA) 8&amp;rsquo;000 termes, origine:&lt;a href=&#34;https://www.ehu.eus/PAT/Glosarios/FISHTERM_94.txt&#34;&gt;FAO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;MED_UTX: (EN, JA) 54&amp;rsquo;000 termes, origine:&lt;a href=&#34;https://cpansearch.perl.org/src/BYUTRG/Convert-TBX-UTX-0.032/t/Corpus/Sample.utx&#34;&gt;Kitazato University&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;downloads&#34;&gt;Downloads&lt;/h2&gt;
+
+&lt;p&gt;myTerm 1.0 pour Windows, version 64-bit
+(testé sur Windows 7 et Windows 2008 Server)&lt;/p&gt;
+
+&lt;p&gt;Les fichiers d&amp;rsquo;installation de myTerm peuvent être téléchargé &lt;a href=&#34;http://srv3.olanto.org/download/myTERM/update-1.1/MYTERM.zip&#34;&gt;ici&lt;/a&gt; (97 Mb).&lt;/p&gt;
+
+&lt;p&gt;SHA1 key:b1c60fce4f869b2bb7072383604f08f4f353dbaf&lt;/p&gt;
+
+&lt;p&gt;Outils&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;outil mySQL Server56 est a télécharger &lt;a href=&#34;http://srv3.olanto.org/download/myTERM/prereq_mysql56.zip&#34;&gt;ici&lt;/a&gt; (247 Mb). Please use only these distribution of the applications so as to make sure you have the required version.&lt;/p&gt;
+
+&lt;p&gt;SHA1 key: 7d3d4eff94ac5d8f16a0eb7a9b7c98b05bb9df20&lt;/p&gt;
+
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;Installation de myTerm&lt;/p&gt;
+
+&lt;p&gt;myTerm pour Windows:&lt;/p&gt;
+
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myCAT sur un serveur dédié équipé de Windows est décrite &lt;a href=&#34;http://srv3.olanto.org/download/documentation/myTerm_v1.0_install.pdf&#34;&gt;ici&lt;/a&gt;..&lt;/p&gt;
+
+&lt;p&gt;Un document décrivant l&amp;rsquo;interface le workflow &lt;a href=&#34;http://srv3.olanto.org/download/documentation/myTerm_v1.0_userGuide.pdf&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;spécifications-du-serveur&#34;&gt;Spécifications du serveur&lt;/h3&gt;
+
+&lt;p&gt;Le serveur qui hébergera myTerm doit répondre aux spécifications suivantes (en anglais).&lt;/p&gt;
+
+&lt;p&gt;myTerm doit être déployé sur un serveur dédié, qui peut être soit une machine physique ou une machine virtuelle. Veuillez noter que ce serveur doit être en 64 bits.
+CPU:&lt;/p&gt;
+
+&lt;p&gt;Un CPU (Quadricore), 64-bit&lt;/p&gt;
+
+&lt;p&gt;RAM:6 à 8 Gb&lt;/p&gt;
+
+&lt;p&gt;Système d&amp;rsquo;exploitation:&lt;/p&gt;
+
+&lt;p&gt;Windows Server 2008 ou Windows 7, version 64-bit
+ou GNU/Linux Ubuntu 12.04 LTS, version 64-bit&lt;/p&gt;
+
+&lt;p&gt;Applications:&lt;/p&gt;
+
+&lt;p&gt;Les applications à installer sont les suivantes:&lt;/p&gt;
+
+&lt;p&gt;Java JRE 6 ou plus
+Apache Tomcat 7.0 (pour publier l&amp;rsquo;application en ligne) ou plus
+myTerm (Classes java distribuées dans un fichier .war dans la Tomcat)&lt;/p&gt;
+
+&lt;h2 id=&#34;source-licence&#34;&gt;source &amp;amp; licence&lt;/h2&gt;
+
+&lt;p&gt;Licence AGPL v3 - sources &lt;a href=&#34;https://github.com/olanto/MYTERM&#34;&gt;@github&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html class="nojs" lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+<title>myCLASS – Olanto Fondation</title>
+<meta name="created" content="0001-01-01T00:00:00&#43;0000">
+<meta name="modified" content="0001-01-01T00:00:00&#43;0000">
+<meta name="author" content="Olanto">
+<meta name="description" content="&lt;p&gt;MyCLASS est un classifieur automatique de documents. &lt;/p&gt;">
+<meta property="og:site_name" content="Olanto Fondation">
+<meta property="og:title" content="myCLASS">
+<meta property="og:url" content="http://example.org/fr/software/myclass/">
+
+<meta name="generator" content="Hugo 0.48" />
+
+<link rel="canonical" href="http://example.org/fr/software/myclass/">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/print.css" media="print">
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "myCLASS",
+    "datePublished": "0001-01-01T00:00:00Z",
+    "dateModified": "0001-01-01T00:00:00Z",
+    "url" : "http://example.org/fr/software/myclass/",
+    "description": "\u003cp\u003eMyCLASS est un classifieur automatique de documents. \u003c/p\u003e",
+    "author": {
+      "@type": "Person",
+      "name": "Olanto"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http://example.org/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Olanto Fondation",
+      "url": "http://example.org/",
+    }
+  }
+</script>
+
+</head>
+
+<body>
+<div class="page layout__page layout__sidebar-second">
+<header class="header layout__header" role="banner">
+<a href="/fr/" title="Home" rel="home" class="header__logo"><img src="/images/logo.png" alt="Home" class="header__logo-image"></a>
+<h1 class="header__site-name">
+<a href="/fr/" title="Home" class="header__site-link" rel="home"><span>Olanto Fondation</span></a>
+</h1>
+<div class="region header__region">
+<h2 class="visually-hidden">Language selector</h2>
+<nav class="language-selector layout__language-selector" role="navigation">
+<ul class="navbar">
+
+<li><a rel="alternate" href="/software/myclass/" hreflang="en" lang="en">English</a></li>
+</ul>
+</nav>
+
+
+</div>
+</header>
+
+
+
+
+<nav class="main-menu layout__navigation" role="navigation">
+<h2 class="visually-hidden">Main menu</h2>
+<ul class="navbar">
+<li><a class="" href="/fr/">Home</a></li>
+<li><a class="" href="/fr/foundation/">Foundations</a></li>
+<li><a class="active" href="/fr/software/">Softwares</a></li>
+</ul>
+</nav>
+
+
+<main class="main layout__main" role="main">
+<h1 class="title ">myCLASS</h1>
+<article class="section-software single-view">
+<header>
+</header>
+<div class="content">
+<p>MyCLASS est un classifieur automatique de documents.
+</p>
+
+<h2 id="historique">Historique</h2>
+
+<p>La première version du projet date de 2003 (<a href="http://srv3.olanto.org/download/documentation/categ_wipo_icic03.pdf">doc2003</a>). Depuis cette date, il a été régulièrement amélioré pour pouvoir traiter des jeux d&rsquo;entrainement (30 millions de documents) et des classifications (70&rsquo;000 classes) de plus en plus volumineuses. il a été principalement utilisé dans le domaine de la classification des brevets par L&rsquo;OMPI (voir <a href="https://link.springer.com/chapter/10.1007/978-3-642-19231-9_12">springer2011</a>). MYCLASS a été aussi en compétition dans les conférences CLEF (<a href="http://srv3.olanto.org/download/documentation/CLEF2010wn-CLEF-IP-GuyotEt2010.pdf">clefguyot2010</a>)(<a href="http://srv3.olanto.org/download/documentation/CLEF2010wn-CLEF-IP-PiroiEt2010.pdf">clefpiroi2010</a>).
+Ces dernières années ont privilégié la performance et la qualité de l&rsquo;entrainement. De nouvelles perspectives sont ouvertes en utilisant la traduction automatique afin de n&rsquo;avoir qu&rsquo;un classifieur dans une langue pivot voir (<a href="http://srv3.olanto.org/download/documentation/AutomaticCategorization2017.pdf">wipo2017</a>) et (<a href="http://srv3.olanto.org/download/documentation/IPCCAT_ICSDV_2018.pdf">wipo2018</a>). Le classifieur a aussi été utilisé dans des projets sur des corpus de nouvelles avec Reuter et Dow Jones. Nous avons expérimenté et comparé que l&rsquo;utilisation des réseaux de neurones est performante et suffisante pour la classification de texte, dans le cas où les textes ne comportent pas d&rsquo;information &ldquo;cachée&rdquo;. Par exemple, l&rsquo;information &ldquo;cachée&rdquo; est définie dans le style du texte (ironie, cynisme, emphase, …). Dans ces cas l&rsquo;utilisation du &ldquo;Deep Learning&rdquo; est souvent plus appropriée (voir (<a href="http://srv3.olanto.org/download/documentation/deeplearningandclassification.pdf">ai2015</a>))</p>
+
+<p>Ce projet a pour objectifs:</p>
+
+<ul>
+<li>D&rsquo;automatiser la classification de texte</li>
+<li>De créer des environnements interactifs pour les classifications hiérarchiques</li>
+<li>D&rsquo;être une solution prête à l&rsquo;emploi dans le domaine de la classification de brevets.</li>
+<li>De créer une référence pour la performance et l&rsquo;efficacité pour l&rsquo;entrainement et le déploiement</li>
+</ul>
+
+<h2 id="qui-peut-utiliser-ces-outils">Qui peut utiliser ces outils?</h2>
+
+<ul>
+<li>L&rsquo;étudiant désirant compléter ses connaissances sur les outils de classification</li>
+<li>L&rsquo;enseignant désirant expérimenter ce type de classifieur</li>
+<li>Le professionnel indépendant voulant explorer les possibilités de la classification automatique</li>
+<li>Une organisation voulant explorer et mettre en place la classification automatique dans ses processus</li>
+</ul>
+
+<h2 id="comment-contribuer-à-ce-projet">Comment contribuer à ce projet?</h2>
+
+<ul>
+<li>En installant et en utilisant ces outils</li>
+<li>En ajoutant des informations dans ce wiki pour faciliter l&rsquo;utilisation de ces outils</li>
+<li>en traduisant ces pages dans d&rsquo;autres langues</li>
+<li>en proposant des nouvelles fonctionnalités ou des nouveaux outils dans l&rsquo;installation de base</li>
+<li>en ajoutant de nouvelles ressources (corpus de test) dans github sous votre compte.</li>
+</ul>
+
+<h2 id="comment-commencer">Comment commencer?</h2>
+
+<ul>
+<li>Je veux installer les outils <a href="https://github.com/olanto/MYCLASS/wiki/How_to_install_FR">&gt;&gt; Installer</a></li>
+<li>Je veux tester les outils <a href="https://github.com/olanto/MYCLASS/wiki/How_to_use_FR">&gt;&gt; Utiliser</a></li>
+<li>Je veux contribuer <a href="https://github.com/olanto/MYCLASS/wiki/How_to_contribute_FR">&gt;&gt; Contribuer</a></li>
+</ul>
+
+</div>
+</article>
+</main>
+
+
+
+<aside class="sidebar layout__second-sidebar" role="complementary">
+<section>
+<h4 class="menu"><a class="" href="/fr/foundation/">Foundations</a></h4>
+<ul class="menu">
+<li><a class="" href="/fr/foundation/communication/">Communication</a></li>
+<li><a class="" href="/fr/foundation/contact/">Contact</a></li>
+<li><a class="" href="/fr/foundation/foundation/">Fondation</a></li>
+</ul>
+</section>
+<section>
+<h4 class="menu"><a class="" href="/fr/software/">Softwares</a></h4>
+<ul class="menu">
+<li><a class="" href="/fr/software/education/">Education</a></li>
+<li><a class="" href="/fr/software/how2say/">How2Say</a></li>
+<li><a class="" href="/fr/software/overview/">Vue d&#39;ensemble</a></li>
+<li><a class="" href="/fr/software/mycat/">myCAT</a></li>
+<li><a class="active" href="/fr/software/myclass/">myCLASS</a></li>
+<li><a class="" href="/fr/software/mymt/">myMT</a></li>
+<li><a class="" href="/fr/software/myprep/">myPREP</a></li>
+<li><a class="" href="/fr/software/myterm/">myTERM</a></li>
+</ul>
+</section>
+</aside>
+
+
+<footer class="footer layout__footer" role="contentinfo">
+<p><span>© Olanto Fondation</span></p>
+
+
+</footer>
+
+</div>
+
+
+
+</body>
+</html>
