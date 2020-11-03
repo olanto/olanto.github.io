@@ -1,14 +1,233 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>http://example.org/en/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>http://example.org/fr/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/fr/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/foundation/communication/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/foundation/communication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/foundation/communication/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/foundation/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/foundation/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/foundation/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/software/education/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/software/education/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/software/education/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/foundation/foundation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/foundation/foundation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/foundation/foundation/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/foundation/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/foundation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/foundation/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/software/how2say/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/software/how2say/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/software/how2say/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/software/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/software/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/software/overview/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/software/overview/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/software/overview/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/software/mycat/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/software/mycat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/software/mycat/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/software/myclass/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/software/myclass/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/software/myclass/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/software/mymt/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/software/mymt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/software/mymt/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/software/myprep/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/software/myprep/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/software/myprep/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/fr/software/myterm/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/software/myterm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://example.org/fr/software/myterm/"
+                />
+  </url>
+  
+</urlset>

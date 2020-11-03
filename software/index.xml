@@ -258,11 +258,14 @@ The myCAT installation files can be downloaded &lt;a href=&#34;http://srv3.olant
 
 &lt;h4 id=&#34;tools&#34;&gt;Tools&lt;/h4&gt;
 
-&lt;p&gt;The Java, Tomcat and OpenOffice applications are to be downloaded:
-*  &lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools7.zip&#34;&gt;java 7, tomcat 7&lt;/a&gt; (238 Mb) - sha1 :2B7DE1A6590E04B241A679451952256834A6C21B.
-*  &lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools8.zip&#34;&gt;java 8, tomcat 8&lt;/a&gt; (308 Mb) - sha1 :1968eb32f0fd56e9a811662e5d16770e7b993481.
-*  &lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools10.zip&#34;&gt;java 10, tomcat 9&lt;/a&gt; (555 Mb) - sha1 :
-c4e40feefc821425c9ab2d0064daed0862c447d8.&lt;/p&gt;
+&lt;p&gt;The Java, Tomcat and OpenOffice applications are to be downloaded:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools7.zip&#34;&gt;java 7, tomcat 7&lt;/a&gt; (238 Mb) - sha1 :2B7DE1A6590E04B241A679451952256834A6C21B.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools8.zip&#34;&gt;java 8, tomcat 8&lt;/a&gt; (308 Mb) - sha1 :1968eb32f0fd56e9a811662e5d16770e7b993481.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools10.zip&#34;&gt;java 10, tomcat 9&lt;/a&gt; (555 Mb) - sha1 :
+c4e40feefc821425c9ab2d0064daed0862c447d8.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;In this file, you find batch for &lt;a href=&#34;http://srv3.olanto.org/download/win/install/run789.zip&#34;&gt;tomcat 7,8,9&lt;/a&gt; (1 Mb) - sha1 : 9a023005a810a2c7541c6a56a86abb30db7530f2&lt;/p&gt;
 
@@ -316,6 +319,10 @@ English-Chinese &lt;a href=&#34;http://srv3.olanto.org/download/maps/ENZH.zip&#3
 
 &lt;p&gt;The corpus of bi-text documents to be used with &lt;a href=&#34;http://example.org/software/myMT.en.md&#34;&gt;myMT&lt;/a&gt; should comply with the &lt;a href=&#34;http://srv3.olanto.org/download/documentation/myCAT_doc_specs.pdf&#34;&gt;following specifications&lt;/a&gt;.
 This myMT distribution comes with a very small test corpus of 48 documents allowing to test the following six languages: English, French, Spanish, Arabic, Russian and Chinese. These documents are organized in three collections: UNO, WIPO and WTO. They are all public documents which were downloaded from those organization&amp;rsquo;s websites.&lt;/p&gt;
+
+&lt;h2 id=&#34;source-licence&#34;&gt;source &amp;amp; licence&lt;/h2&gt;
+
+&lt;p&gt;Licence AGPL v3 - sources &lt;a href=&#34;https://github.com/olanto/MYCAT&#34;&gt;@GitHub&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;changelog&#34;&gt;changelog&lt;/h2&gt;
 
@@ -619,11 +626,7 @@ This myMT distribution comes with a very small test corpus of 48 documents allow
 
 &lt;ul&gt;
 &lt;li&gt;Graphic User Interfaces were colorized.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;source-licence&#34;&gt;source &amp;amp; licence&lt;/h2&gt;
-
-&lt;p&gt;Licence AGPL v3 - sources &lt;a href=&#34;https://github.com/olanto/MYCAT&#34;&gt;@GitHub&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
