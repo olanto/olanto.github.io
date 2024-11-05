@@ -160,9 +160,9 @@ How2Say uses the corpora that can be aligned using the tools of myPREP from the 
 &lt;li&gt;based on the UN corpora (MultiUN: A Multilingual corpus from United Nation Documents, Andreas Eisele and Yu Chen, &lt;a href=&#34;https://www.dfki.de/lt/publication_show.php?id=4790&#34;&gt;LREC 2010&lt;/a&gt;) containing 65 million sentences from 7 languages.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Start  &lt;a href=&#34;https://88.127.130.21:5556/How2Say/how2say?query=pommes%20d%20terre&amp;amp;langso=FR&amp;amp;langta=EN&#34;&gt;How2Say-MULTI-UN&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Start  &lt;a href=&#34;http://srv3.olanto.org:8000/How2Say/how2say?query=pommes%20de%20terre&amp;amp;langso=FR&amp;amp;langta=EN&#34;&gt;How2Say-MULTI-UN&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Start  &lt;a href=&#34;https://88.127.130.21:4444/How2Say/how2say?query=pommes%20d%20terre&amp;amp;langso=FR&amp;amp;langta=EN&#34;&gt;How2Say-DGT2014&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Start  &lt;a href=&#34;http://srv3.olanto.org:8080/How2Say/how2say?query=pommes%20de%20terre&amp;amp;langso=FR&amp;amp;langta=EN&#34;&gt;How2Say-DGT2014&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://example.org/static/how2saydemo.png&#34; alt=&#34;copyscreen&#34; /&gt;&lt;/p&gt;
 
