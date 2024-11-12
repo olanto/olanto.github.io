@@ -209,7 +209,7 @@ Olanto développe et distribue des logiciels de TAO selon la liste suivante:&lt;
 &lt;h2 id=&#34;online-demonstration-demo&#34;&gt;Online demonstration Demo&lt;/h2&gt;
 
 &lt;p&gt;Avant d&amp;rsquo;utiliser la démo, il est conseillé de lire les conseils ci-dessous.
-La démo est disponible sur : &lt;a href=&#34;srv3.olanto.org/TranslationText&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+La démo est disponible sur : &lt;a href=&#34;https://srv3.olanto.org/TranslationText&#34;&gt;demo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;langue-de-l-interface&#34;&gt;Langue de l&amp;rsquo;interface !&lt;/h3&gt;
 
@@ -253,7 +253,7 @@ La démo est disponible sur : &lt;a href=&#34;srv3.olanto.org/TranslationText&#3
 
 &lt;p&gt;Définissez votre paire de langues dans les menus déroulants.&lt;/p&gt;
 
-&lt;p&gt;Cliquez sur le bouton &amp;ldquo;Browse&amp;rdquo; pour téléverser le document que vous souhaitez analyser (un document d&amp;rsquo;exemple à analyser d&amp;rsquo;anglais en français peut être téléchargé &lt;a href=&#34;srv3.olanto.org/download/documentation/Test_document.docx&#34;&gt;ici&lt;/a&gt;.
+&lt;p&gt;Cliquez sur le bouton &amp;ldquo;Browse&amp;rdquo; pour téléverser le document que vous souhaitez analyser (un document d&amp;rsquo;exemple à analyser d&amp;rsquo;anglais en français peut être téléchargé &lt;a href=&#34;https://srv3.olanto.org/download/documentation/Test_document.docx&#34;&gt;ici&lt;/a&gt;.
 Note: dans la version de démonstration, les documents à soumettre au détecteur de citations sont tronqués après 3&amp;rsquo;000 caractères.&lt;/p&gt;
 
 &lt;p&gt;Cliquez sur le bouton GO. Le document résultant de l&amp;rsquo;analyse est affiché dans le cadre central; des statistiques sur l&amp;rsquo;analyse sont ajoutées à la fin de ce document.&lt;/p&gt;
@@ -263,7 +263,7 @@ Note: dans la version de démonstration, les documents à soumettre au détecteu
 &lt;h3 id=&#34;mycat-4-1-0-pour-windows-64-bit-version&#34;&gt;myCAT 4.1.0 pour Windows, 64-bit version&lt;/h3&gt;
 
 &lt;p&gt;(testé sur Windows 7,8,10 et Windows 2008,2016 Server)
-Les fichiers d&amp;rsquo;installation de myCAT peuvent être téléchargés &lt;a href=&#34;srv3.olanto.org/download/myCAT/update-4.1.0/myCAT.zip&#34;&gt;ici&lt;/a&gt; (275 Mb).&lt;/p&gt;
+Les fichiers d&amp;rsquo;installation de myCAT peuvent être téléchargés &lt;a href=&#34;https://srv3.olanto.org/download/myCAT/update-4.1.0/myCAT.zip&#34;&gt;ici&lt;/a&gt; (275 Mb).&lt;/p&gt;
 
 &lt;p&gt;SHA1 key: 5adc2f8a5e8819e9d4c035a5b907c7996416dd23&lt;/p&gt;
 
@@ -272,39 +272,39 @@ Les fichiers d&amp;rsquo;installation de myCAT peuvent être téléchargés &lt;
 &lt;p&gt;Les logiciels Java, Tomcat et OpenOffice peuvent être téléchargé:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;srv3.olanto.org/download/win/install/Tools7.zip&#34;&gt;java 7, tomcat 7&lt;/a&gt; (238 Mb) - sha1 :2B7DE1A6590E04B241A679451952256834A6C21B.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;hsrv3.olanto.org/download/win/install/Tools8.zip&#34;&gt;java 8, tomcat 8&lt;/a&gt; (308 Mb) - sha1 :1968eb32f0fd56e9a811662e5d16770e7b993481.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;srv3.olanto.org/download/win/install/Tools10.zip&#34;&gt;java 10, tomcat 9&lt;/a&gt; (555 Mb) - sha1 :
+&lt;li&gt;&lt;a href=&#34;https://srv3.olanto.org/download/win/install/Tools7.zip&#34;&gt;java 7, tomcat 7&lt;/a&gt; (238 Mb) - sha1 :2B7DE1A6590E04B241A679451952256834A6C21B.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;hhttps://srv3.olanto.org/download/win/install/Tools8.zip&#34;&gt;java 8, tomcat 8&lt;/a&gt; (308 Mb) - sha1 :1968eb32f0fd56e9a811662e5d16770e7b993481.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://srv3.olanto.org/download/win/install/Tools10.zip&#34;&gt;java 10, tomcat 9&lt;/a&gt; (555 Mb) - sha1 :
 c4e40feefc821425c9ab2d0064daed0862c447d8.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Dans le fichier suivant, vous trouverez des batchs adaptés &lt;a href=&#34;srv3.olanto.org/download/win/install/run789.zip&#34;&gt;tomcat 7,8,9&lt;/a&gt; (1 Mb) - sha1 : 9a023005a810a2c7541c6a56a86abb30db7530f2&lt;/p&gt;
+&lt;p&gt;Dans le fichier suivant, vous trouverez des batchs adaptés &lt;a href=&#34;https://srv3.olanto.org/download/win/install/run789.zip&#34;&gt;tomcat 7,8,9&lt;/a&gt; (1 Mb) - sha1 : 9a023005a810a2c7541c6a56a86abb30db7530f2&lt;/p&gt;
 
 &lt;p&gt;Il est recommandé de n&amp;rsquo;employer que ces distributions afin de disposer de la version requise.&lt;/p&gt;
 
-&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myCAT sur un serveur dédié équipé de Windows est décrite ici &lt;a href=&#34;srv3.olanto.org/download/documentation/myCAT_v2.1.03_install.pdf&#34;&gt;generic doc&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myCAT sur un serveur dédié équipé de Windows est décrite ici &lt;a href=&#34;https://srv3.olanto.org/download/documentation/myCAT_v2.1.03_install.pdf&#34;&gt;generic doc&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;mycat-4-1-0-pour-gnu-linux-64-bit-version&#34;&gt;myCAT 4.1.0 pour GNU/Linux, 64-bit version&lt;/h3&gt;
 
 &lt;p&gt;(testé sur Ubuntu 12,14,16,&amp;amp; 18.04 LTS)
-Les fichiers d&amp;rsquo;installation de myCAT peuvent être téléchargé &lt;a href=&#34;srv3.olanto.org/download/myCAT/update-4.1.0/myCAT-linux.zip&#34;&gt;here&lt;/a&gt; (292 Mb).&lt;/p&gt;
+Les fichiers d&amp;rsquo;installation de myCAT peuvent être téléchargé &lt;a href=&#34;https://srv3.olanto.org/download/myCAT/update-4.1.0/myCAT-linux.zip&#34;&gt;here&lt;/a&gt; (292 Mb).&lt;/p&gt;
 
 &lt;p&gt;SHA1 key: 90277bd5a7d0c36e7acd2a09695f34579402c763&lt;/p&gt;
 
 &lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
 
-&lt;p&gt;le fichier OpenOffice file peut être téléchargé &lt;a href=&#34;srv3.olanto.org/download/linux/install/Apache_OpenOffice_incubating_3.4.0_Linux_x86-64_install-deb_en-US.tar.gz&#34;&gt;here&lt;/a&gt; (171 Mb).&lt;/p&gt;
+&lt;p&gt;le fichier OpenOffice file peut être téléchargé &lt;a href=&#34;https://srv3.olanto.org/download/linux/install/Apache_OpenOffice_incubating_3.4.0_Linux_x86-64_install-deb_en-US.tar.gz&#34;&gt;here&lt;/a&gt; (171 Mb).&lt;/p&gt;
 
 &lt;p&gt;SHA1 key: 2B8071CF3F26C202BB7B0BE1AFD5DC2F21221614&lt;/p&gt;
 
-&lt;p&gt;The procedure to perform a standard installation of myCAT on a dedicated server running Ubuntu 18.04 LTS is described &lt;a href=&#34;srv3.olanto.org/download/documentation/myCat_Linux_install 18.04.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The procedure to perform a standard installation of myCAT on a dedicated server running Ubuntu 18.04 LTS is described &lt;a href=&#34;https://srv3.olanto.org/download/documentation/myCat_Linux_install 18.04.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;ajouter-des-cartes-d-alignement&#34;&gt;Ajouter des Cartes d&amp;rsquo;alignement&lt;/h3&gt;
 
 &lt;p&gt;La version de base de myCAT est livrée avec les cartes d&amp;rsquo;alignement suivantes: anglais-arabe, anglais-espagnol, anglais-français, anglais-portugais et anglais-russe. Il est possible d&amp;rsquo;ajouter les paires de langues suivantes :&lt;/p&gt;
 
-&lt;p&gt;Anglais-Allemand &lt;a href=&#34;srv3.olanto.org/download/maps/ENDE.zip&#34;&gt;here&lt;/a&gt;
-Anglais-Chinois &lt;a href=&#34;srv3.olanto.org/download/maps/ENZH.zip&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anglais-Allemand &lt;a href=&#34;https://srv3.olanto.org/download/maps/ENDE.zip&#34;&gt;here&lt;/a&gt;
+Anglais-Chinois &lt;a href=&#34;https://srv3.olanto.org/download/maps/ENZH.zip&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;ajouter-des-cartes-d-alignement-1&#34;&gt;Ajouter des Cartes d&amp;rsquo;alignement&lt;/h3&gt;
 
@@ -334,7 +334,7 @@ Anglais-Chinois &lt;a href=&#34;srv3.olanto.org/download/maps/ENZH.zip&#34;&gt;h
 
 &lt;h3 id=&#34;règles-de-nommage-des-documents&#34;&gt;Règles de nommage des documents&lt;/h3&gt;
 
-&lt;p&gt;Le corpus de documents bi-textes qui sera exploité par &lt;a href=&#34;http://example.org/software/myMT.en.md&#34;&gt;myMT&lt;/a&gt; doit être conforme aux &lt;a href=&#34;srv3.olanto.org/download/documentation/myCAT_doc_specs.pdf&#34;&gt;spécifications suivantes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Le corpus de documents bi-textes qui sera exploité par &lt;a href=&#34;http://example.org/software/myMT.en.md&#34;&gt;myMT&lt;/a&gt; doit être conforme aux &lt;a href=&#34;https://srv3.olanto.org/download/documentation/myCAT_doc_specs.pdf&#34;&gt;spécifications suivantes&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Cette distribution de myMT contient un très petit corpus de 48 documents qui permet de tester l&amp;rsquo;application dans les six langues suivantes: anglais, français, espagnol, russe, arabe et chinois. Ces documents sont organisés en trois collections: ONU (UNO), OMPI (WIPO) et OMC (WTO). Ce sont tous des documents publics qui ont été téléchargés depuis le site respectif de ces organisations.&lt;/p&gt;
 
