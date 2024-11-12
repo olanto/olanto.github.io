@@ -216,7 +216,7 @@ The demo is available at: &lt;a href=&#34;http://srv3.olanto.org/TranslationText
 
 &lt;p&gt;An online User Manual is available by clicking on the HELP button; this document details how to use myCAT so it is strongly recommended to read it before testing out the application.&lt;/p&gt;
 
-&lt;p&gt;The demo version of myCAT is built on a corpus which includes over a million documents, over 10 million different words indexed and 25 languages. This corpus essentially comes from the following sources: The United Nations&amp;rsquo; &lt;a href=&#34;https://www.euromatrixplus.net/multi-un/&#34;&gt;Multilingual Parallel Text 2000-2009  &lt;/a&gt;and the &lt;a href=&#34;https://langtech.jrc.it/JRC-Acquis.html&#34;&gt;European Commission&amp;rsquo;s JRC-Acquis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The demo version of myCAT is built on a corpus which includes over a million documents, over 10 million different words indexed and 25 languages. This corpus essentially comes from the following sources: The United Nations&amp;rsquo; &lt;a href=&#34;https://www.euromatrixplus.net/multi-un/&#34;&gt;Multilingual Parallel Text 2000-2009  &lt;/a&gt;and the &lt;a href=&#34;https://publications.jrc.ec.europa.eu/repository/handle/JRC32786&#34;&gt;European Commission&amp;rsquo;s JRC-Acquis&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;testing-the-text-aligner&#34;&gt;Testing the Text Aligner&lt;/h4&gt;
 
