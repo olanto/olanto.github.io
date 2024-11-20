@@ -97,7 +97,7 @@ des propositions de traduction pour la langue sélectionnée « potatoes »
 &lt;p&gt;How2Say for Windows, 64-bit version
 (tested on Windows 7 and Windows 2008 Server)&lt;/p&gt;
 
-&lt;p&gt;Les fichiers d&amp;rsquo;installation de How2Say peuvent être téléchargés &lt;a href=&#34;http://srv3.olanto.org/download/HOW2SAY/update-1.1/HOW2SAY.zip&#34;&gt;ici&lt;/a&gt; (275 Mb).&lt;/p&gt;
+&lt;p&gt;Les fichiers d&amp;rsquo;installation de How2Say peuvent être téléchargés &lt;a href=&#34;https://srv3.olanto.org/download/HOW2SAY/update-1.1/HOW2SAY.zip&#34;&gt;ici&lt;/a&gt; (275 Mb).&lt;/p&gt;
 
 &lt;p&gt;SHA1 key: 0db9dfef092a160523a1d62c5a7278399e0ff893&lt;/p&gt;
 
@@ -135,7 +135,7 @@ Olanto développe et distribue des logiciels de TAO selon la liste suivante:&lt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;http://example.org/fr/software/mycat/&#34;&gt;myCAT&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;un concordancier, c&amp;rsquo;est-à-dire un moteur de recherche&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://srv3.olanto.org/TranslationText/&#34;&gt;Demo&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://srv3.olanto.org/TranslationText/&#34;&gt;Demo&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;. &lt;a href=&#34;https://github.com/olanto/MYCAT&#34;&gt;@github&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -156,14 +156,14 @@ Olanto développe et distribue des logiciels de TAO selon la liste suivante:&lt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;http://example.org/fr/software/mymt/&#34;&gt;myMT&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;un outil de traduction automatique&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://http://srv3.olanto.org/WebTranslator/&#34;&gt;Demo&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://https://srv3.olanto.org/WebTranslator/&#34;&gt;Demo&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;. &lt;a href=&#34;https://github.com/olanto/MYMT&#34;&gt;@github&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;http://example.org/fr/software/myterm/&#34;&gt;myTerm&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Un outil de gestion de terminologies basé sur la norme TBX&lt;/td&gt;
-&lt;td&gt;User: demo Password:demo &lt;a href=&#34;http://srv3.olanto.org/myTerm&#34;&gt;Demo&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;User: demo Password:demo &lt;a href=&#34;https://srv3.olanto.org/myTerm&#34;&gt;Demo&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;. &lt;a href=&#34;https://github.com/olanto/MYTERM&#34;&gt;@github&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -279,6 +279,8 @@ c4e40feefc821425c9ab2d0064daed0862c447d8.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Dans le fichier suivant, vous trouverez des batchs adaptés &lt;a href=&#34;https://srv3.olanto.org/download/win/install/run789.zip&#34;&gt;tomcat 7,8,9&lt;/a&gt; (1 Mb) - sha1 : 9a023005a810a2c7541c6a56a86abb30db7530f2&lt;/p&gt;
+
+&lt;p&gt;Le fichier OpenOffice file peut être téléchargé &lt;a href=&#34;https://srv3.olanto.org/download/win/install/OpenOffice.org3.4(en-US)InstallationFiles.zip&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Il est recommandé de n&amp;rsquo;employer que ces distributions afin de disposer de la version requise.&lt;/p&gt;
 
@@ -657,8 +659,8 @@ Anglais-Chinois &lt;a href=&#34;https://srv3.olanto.org/download/maps/ENZH.zip&#
 
 &lt;h2 id=&#34;historique&#34;&gt;Historique&lt;/h2&gt;
 
-&lt;p&gt;La première version du projet date de 2003 (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/categ_wipo_icic03.pdf&#34;&gt;doc2003&lt;/a&gt;). Depuis cette date, il a été régulièrement amélioré pour pouvoir traiter des jeux d&amp;rsquo;entrainement (30 millions de documents) et des classifications (70&amp;rsquo;000 classes) de plus en plus volumineuses. il a été principalement utilisé dans le domaine de la classification des brevets par L&amp;rsquo;OMPI (voir &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-642-19231-9_12&#34;&gt;springer2011&lt;/a&gt;). MYCLASS a été aussi en compétition dans les conférences CLEF (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/CLEF2010wn-CLEF-IP-GuyotEt2010.pdf&#34;&gt;clefguyot2010&lt;/a&gt;)(&lt;a href=&#34;http://srv3.olanto.org/download/documentation/CLEF2010wn-CLEF-IP-PiroiEt2010.pdf&#34;&gt;clefpiroi2010&lt;/a&gt;).
-Ces dernières années ont privilégié la performance et la qualité de l&amp;rsquo;entrainement. De nouvelles perspectives sont ouvertes en utilisant la traduction automatique afin de n&amp;rsquo;avoir qu&amp;rsquo;un classifieur dans une langue pivot voir (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/AutomaticCategorization2017.pdf&#34;&gt;wipo2017&lt;/a&gt;) et (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/IPCCAT_ICSDV_2018.pdf&#34;&gt;wipo2018&lt;/a&gt;). Le classifieur a aussi été utilisé dans des projets sur des corpus de nouvelles avec Reuter et Dow Jones. Nous avons expérimenté et comparé que l&amp;rsquo;utilisation des réseaux de neurones est performante et suffisante pour la classification de texte, dans le cas où les textes ne comportent pas d&amp;rsquo;information &amp;ldquo;cachée&amp;rdquo;. Par exemple, l&amp;rsquo;information &amp;ldquo;cachée&amp;rdquo; est définie dans le style du texte (ironie, cynisme, emphase, …). Dans ces cas l&amp;rsquo;utilisation du &amp;ldquo;Deep Learning&amp;rdquo; est souvent plus appropriée (voir (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/deeplearningandclassification.pdf&#34;&gt;ai2015&lt;/a&gt;))&lt;/p&gt;
+&lt;p&gt;La première version du projet date de 2003 (&lt;a href=&#34;https://srv3.olanto.org/download/documentation/categ_wipo_icic03.pdf&#34;&gt;doc2003&lt;/a&gt;). Depuis cette date, il a été régulièrement amélioré pour pouvoir traiter des jeux d&amp;rsquo;entrainement (30 millions de documents) et des classifications (70&amp;rsquo;000 classes) de plus en plus volumineuses. il a été principalement utilisé dans le domaine de la classification des brevets par L&amp;rsquo;OMPI (voir &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-642-19231-9_12&#34;&gt;springer2011&lt;/a&gt;). MYCLASS a été aussi en compétition dans les conférences CLEF (&lt;a href=&#34;https://srv3.olanto.org/download/documentation/CLEF2010wn-CLEF-IP-GuyotEt2010.pdf&#34;&gt;clefguyot2010&lt;/a&gt;)(&lt;a href=&#34;https://srv3.olanto.org/download/documentation/CLEF2010wn-CLEF-IP-PiroiEt2010.pdf&#34;&gt;clefpiroi2010&lt;/a&gt;).
+Ces dernières années ont privilégié la performance et la qualité de l&amp;rsquo;entrainement. De nouvelles perspectives sont ouvertes en utilisant la traduction automatique afin de n&amp;rsquo;avoir qu&amp;rsquo;un classifieur dans une langue pivot voir (&lt;a href=&#34;https://srv3.olanto.org/download/documentation/AutomaticCategorization2017.pdf&#34;&gt;wipo2017&lt;/a&gt;) et (&lt;a href=&#34;https://srv3.olanto.org/download/documentation/IPCCAT_ICSDV_2018.pdf&#34;&gt;wipo2018&lt;/a&gt;). Le classifieur a aussi été utilisé dans des projets sur des corpus de nouvelles avec Reuter et Dow Jones. Nous avons expérimenté et comparé que l&amp;rsquo;utilisation des réseaux de neurones est performante et suffisante pour la classification de texte, dans le cas où les textes ne comportent pas d&amp;rsquo;information &amp;ldquo;cachée&amp;rdquo;. Par exemple, l&amp;rsquo;information &amp;ldquo;cachée&amp;rdquo; est définie dans le style du texte (ironie, cynisme, emphase, …). Dans ces cas l&amp;rsquo;utilisation du &amp;ldquo;Deep Learning&amp;rdquo; est souvent plus appropriée (voir (&lt;a href=&#34;https://srv3.olanto.org/download/documentation/deeplearningandclassification.pdf&#34;&gt;ai2015&lt;/a&gt;))&lt;/p&gt;
 
 &lt;p&gt;Ce projet a pour objectifs:&lt;/p&gt;
 
@@ -718,7 +720,7 @@ Ces dernières années ont privilégié la performance et la qualité de l&amp;r
 
 &lt;h2 id=&#34;online-demonstration&#34;&gt;Online Demonstration&lt;/h2&gt;
 
-&lt;p&gt;Essayez &lt;a href=&#34;http://srv3.olanto.org/WebTranslator/&#34;&gt;ceci&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Essayez &lt;a href=&#34;https://srv3.olanto.org/WebTranslator/&#34;&gt;ceci&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;téléchargement&#34;&gt;Téléchargement&lt;/h2&gt;
 
@@ -726,21 +728,21 @@ Ces dernières années ont privilégié la performance et la qualité de l&amp;r
 
 &lt;p&gt;(testé sur Windows 7,8, Windows 2008 Server, Ubuntu 14.04 LTS)&lt;/p&gt;
 
-&lt;p&gt;Les fichiers d&amp;rsquo;installation de myMT-Front-End peuvent être téléchargé &lt;a href=&#34;http://srv3.olanto.org/download/myMT/MYMT.zip&#34;&gt;ici&lt;/a&gt; (65 Mo).
+&lt;p&gt;Les fichiers d&amp;rsquo;installation de myMT-Front-End peuvent être téléchargé &lt;a href=&#34;https://srv3.olanto.org/download/myMT/MYMT.zip&#34;&gt;ici&lt;/a&gt; (65 Mo).
     SHA1 ke: a9eae820564b1d66517d830cd37692e8&lt;/p&gt;
 
-&lt;p&gt;Les fichiers d&amp;rsquo;installation de myMT-Back-End peuvent être téléchargés &lt;a href=&#34;http://srv3.olanto.org/download/myMT.14/back-end-3.0.1.tar.gz&#34;&gt;ici&lt;/a&gt; (153 Mo).
+&lt;p&gt;Les fichiers d&amp;rsquo;installation de myMT-Back-End peuvent être téléchargés &lt;a href=&#34;https://srv3.olanto.org/download/myMT.14/back-end-3.0.1.tar.gz&#34;&gt;ici&lt;/a&gt; (153 Mo).
     SHA1 key: 484aa81da392e0ed3c17b7e5071ce2113981f271&lt;/p&gt;
 
 &lt;h3 id=&#34;outils-pour-windows&#34;&gt;Outils pour Windows&lt;/h3&gt;
 
-&lt;p&gt;The Java, Tomcat et OpenOffice peuvent être téléchargé &lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools.zip&#34;&gt;ici&lt;/a&gt; (232 Mb).&lt;/p&gt;
+&lt;p&gt;The Java, Tomcat et OpenOffice peuvent être téléchargé &lt;a href=&#34;https://srv3.olanto.org/download/win/install/Tools.zip&#34;&gt;ici&lt;/a&gt; (232 Mb).&lt;/p&gt;
 
 &lt;p&gt;SHA1 key: 2B7DE1A6590E04B241A679451952256834A6C21B&lt;/p&gt;
 
 &lt;h3 id=&#34;outils-pour-linux&#34;&gt;Outils pour Linux&lt;/h3&gt;
 
-&lt;p&gt;The OpenOffice peut être téléchargé &lt;a href=&#34;http://srv3.olanto.org/download/linux/install/Apache_OpenOffice_incubating_3.4.0_Linux_x86-64_install-deb_en-US.tar.gz&#34;&gt;ici&lt;/a&gt; (171 Mb).&lt;/p&gt;
+&lt;p&gt;The OpenOffice peut être téléchargé &lt;a href=&#34;https://srv3.olanto.org/download/linux/install/Apache_OpenOffice_incubating_3.4.0_Linux_x86-64_install-deb_en-US.tar.gz&#34;&gt;ici&lt;/a&gt; (171 Mb).&lt;/p&gt;
 
 &lt;p&gt;SHA1 key: 2B8071CF3F26C202BB7B0BE1AFD5DC2F21221614&lt;/p&gt;
 
@@ -748,19 +750,19 @@ Ces dernières années ont privilégié la performance et la qualité de l&amp;r
 
 &lt;p&gt;Installationde myMT&lt;/p&gt;
 
-&lt;p&gt;myMT-Front-End pour Windows   (prerequisites &lt;a href=&#34;http://srv3.olanto.org/download/myMT/documentation/prerequise_window_install.pdf&#34;&gt;ici&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;myMT-Front-End pour Windows   (prerequisites &lt;a href=&#34;https://srv3.olanto.org/download/myMT/documentation/prerequise_window_install.pdf&#34;&gt;ici&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myMT-Front-End sur un serveur dédié équipé de Windows est décrite  &lt;a href=&#34;http://srv3.olanto.org/download/myMT/documentation/Installing_Front-End_Server_V2.0.pdf&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myMT-Front-End sur un serveur dédié équipé de Windows est décrite  &lt;a href=&#34;https://srv3.olanto.org/download/myMT/documentation/Installing_Front-End_Server_V2.0.pdf&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;myMT-Front-End pour GNU/Linux  (prerequisites  &lt;a href=&#34;http://srv3.olanto.org/download/myMT/documentation/prerequise_linux_install.pdf&#34;&gt;ici&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;myMT-Front-End pour GNU/Linux  (prerequisites  &lt;a href=&#34;https://srv3.olanto.org/download/myMT/documentation/prerequise_linux_install.pdf&#34;&gt;ici&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;myMT-Front-End pour GNU/Linux  (prérequis ici, en anglais)&lt;/p&gt;
 
-&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myMT-Front-End sur un serveur dédié équipé de Ubuntu 12.04 LTS est décrite &lt;a href=&#34;http://srv3.olanto.org/download/myMT/documentation/Installing_Front-End_Server_V2.0.pdf&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myMT-Front-End sur un serveur dédié équipé de Ubuntu 12.04 LTS est décrite &lt;a href=&#34;https://srv3.olanto.org/download/myMT/documentation/Installing_Front-End_Server_V2.0.pdf&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;myMT-Back-End for GNU/Linux&lt;/p&gt;
 
-&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myMT-Back-End sur un serveur dédié équipé de Ubuntu 14.04 LTS est décrite &lt;a href=&#34;http://srv3.olanto.org/download/myMT/documentation/Installing_Back-End_Server_V2.0_14.04.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myMT-Back-End sur un serveur dédié équipé de Ubuntu 14.04 LTS est décrite &lt;a href=&#34;https://srv3.olanto.org/download/myMT/documentation/Installing_Back-End_Server_V2.0_14.04.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;source-licence&#34;&gt;source &amp;amp; licence&lt;/h2&gt;
 
@@ -787,7 +789,7 @@ Ces dernières années ont privilégié la performance et la qualité de l&amp;r
 &lt;p&gt;myPREP 2.0 pour Windows et GNU/Linux
 (testé sur Windows 7, Windows 2008 Server, Ubuntu 12.04 LTS)&lt;/p&gt;
 
-&lt;p&gt;Les fichiers d&amp;rsquo;installation de myPREP peuvent être téléchargés  &lt;a href=&#34;http://srv3.olanto.org/download/myPREP/MYPREP.zip&#34;&gt;download&lt;/a&gt; (62 Mo).&lt;/p&gt;
+&lt;p&gt;Les fichiers d&amp;rsquo;installation de myPREP peuvent être téléchargés  &lt;a href=&#34;https://srv3.olanto.org/download/myPREP/MYPREP.zip&#34;&gt;download&lt;/a&gt; (62 Mo).&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;SHA1 key: ed84e05ec106527e1c557836a9a817a8&lt;/li&gt;
@@ -795,7 +797,7 @@ Ces dernières années ont privilégié la performance et la qualité de l&amp;r
 
 &lt;h3 id=&#34;outils-pour-windows&#34;&gt;Outils pour Windows&lt;/h3&gt;
 
-&lt;p&gt;Les logiciels Java, Tomcat et OpenOffice peuvent être téléchargés ici &lt;a href=&#34;http://srv3.olanto.org/download/myPREP/MYPREP.zip&#34;&gt;download&lt;/a&gt; (232 Mb). Il est recommandé de n&amp;rsquo;employer que ces distributions afin de disposer de la version requise&lt;/p&gt;
+&lt;p&gt;Les logiciels Java, Tomcat et OpenOffice peuvent être téléchargés ici &lt;a href=&#34;https://srv3.olanto.org/download/myPREP/MYPREP.zip&#34;&gt;download&lt;/a&gt; (232 Mb). Il est recommandé de n&amp;rsquo;employer que ces distributions afin de disposer de la version requise&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;SHA1 key: 2B7DE1A6590E04B241A679451952256834A6C21B&lt;/li&gt;
@@ -803,7 +805,7 @@ Ces dernières années ont privilégié la performance et la qualité de l&amp;r
 
 &lt;h3 id=&#34;outils-pour-gnu-linux&#34;&gt;Outils pour GNU/Linux&lt;/h3&gt;
 
-&lt;p&gt;Les logiciels Java, Tomcat et OpenOffice peuvent être téléchargés &lt;a href=&#34;http://srv3.olanto.org/download/win/install/Tools.zip&#34;&gt;ici&lt;/a&gt; (171 Mb). Il est recommandé de n&amp;rsquo;employer que ces distributions afin de disposer de la version requise&lt;/p&gt;
+&lt;p&gt;Les logiciels Java, Tomcat et OpenOffice peuvent être téléchargés &lt;a href=&#34;https://srv3.olanto.org/download/win/install/Tools.zip&#34;&gt;ici&lt;/a&gt; (171 Mb). Il est recommandé de n&amp;rsquo;employer que ces distributions afin de disposer de la version requise&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;SHA1 key: 2B8071CF3F26C202BB7B0BE1AFD5DC2F21221614&lt;/li&gt;
@@ -815,8 +817,8 @@ Ces dernières années ont privilégié la performance et la qualité de l&amp;r
 
 &lt;p&gt;La version de base de myCAT est livrée avec les cartes d&amp;rsquo;alignement suivantes: anglais-arabe, anglais-espagnol, anglais-français, anglais-portugais et anglais-russe. Il est possible d&amp;rsquo;ajouter les paires de langues suivantes :&lt;/p&gt;
 
-&lt;p&gt;Anglais-Allemand &lt;a href=&#34;http://srv3.olanto.org/download/maps/ENDE.zip&#34;&gt;here&lt;/a&gt;
-Anglais-Chinois &lt;a href=&#34;http://srv3.olanto.org/download/maps/ENZH.zip&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anglais-Allemand &lt;a href=&#34;https://srv3.olanto.org/download/maps/ENDE.zip&#34;&gt;here&lt;/a&gt;
+Anglais-Chinois &lt;a href=&#34;https://srv3.olanto.org/download/maps/ENZH.zip&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Veuillez lire la documentation : Ajouter des Cartes d&amp;rsquo;alignement dans la documentation de myCAT.&lt;/p&gt;
 
@@ -836,10 +838,10 @@ Anglais-Chinois &lt;a href=&#34;http://srv3.olanto.org/download/maps/ENZH.zip&#3
 &lt;h3 id=&#34;installation-de-myprep&#34;&gt;Installation de myPREP&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;myPREP pour Windows  (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/prerequise_window_install.pdf&#34;&gt;prérequis ici&lt;/a&gt; , en anglais)
-La procédure permettant d&amp;rsquo;effectuer une installation classique de myPREP sur un serveur dédié équipé de Windows est décrite ici (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/Installing_myPREP_V2.0_EN.pdf&#34;&gt;installer&lt;/a&gt; en anglais).&lt;/li&gt;
-&lt;li&gt;myPREP pour GNU/Linux  (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/prerequise_linux_install.pdf&#34;&gt;prérequis ici&lt;/a&gt; , en anglais)
-La procédure permettant d&amp;rsquo;effectuer une installation classique de myPREP sur un serveur dédié équipé de Ubuntu 12.04 LTS est décrite ici (&lt;a href=&#34;http://srv3.olanto.org/download/documentation/Installing_myPREP_V2.0_EN.pdf&#34;&gt;installer&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;myPREP pour Windows  (&lt;a href=&#34;https://srv3.olanto.org/download/documentation/prerequise_window_install.pdf&#34;&gt;prérequis ici&lt;/a&gt; , en anglais)
+La procédure permettant d&amp;rsquo;effectuer une installation classique de myPREP sur un serveur dédié équipé de Windows est décrite ici (&lt;a href=&#34;https://srv3.olanto.org/download/documentation/Installing_myPREP_V2.0_EN.pdf&#34;&gt;installer&lt;/a&gt; en anglais).&lt;/li&gt;
+&lt;li&gt;myPREP pour GNU/Linux  (&lt;a href=&#34;https://srv3.olanto.org/download/documentation/prerequise_linux_install.pdf&#34;&gt;prérequis ici&lt;/a&gt; , en anglais)
+La procédure permettant d&amp;rsquo;effectuer une installation classique de myPREP sur un serveur dédié équipé de Ubuntu 12.04 LTS est décrite ici (&lt;a href=&#34;https://srv3.olanto.org/download/documentation/Installing_myPREP_V2.0_EN.pdf&#34;&gt;installer&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;ajouter-des-cartes-d-alignement-1&#34;&gt;Ajouter des Cartes d&amp;rsquo;alignement&lt;/h3&gt;
@@ -870,7 +872,7 @@ La procédure permettant d&amp;rsquo;effectuer une installation classique de myP
 
 &lt;h3 id=&#34;règles-de-nommage-des-documents&#34;&gt;Règles de nommage des documents&lt;/h3&gt;
 
-&lt;p&gt;Le corpus de documents bi-textes qui sera exploité par &lt;a href=&#34;http://example.org/software/myMT.en.md&#34;&gt;myMT&lt;/a&gt; doit être conforme aux &lt;a href=&#34;http://srv3.olanto.org/download/documentation/myCAT_doc_specs.pdf&#34;&gt;spécifications suivantes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Le corpus de documents bi-textes qui sera exploité par &lt;a href=&#34;http://example.org/software/myMT.en.md&#34;&gt;myMT&lt;/a&gt; doit être conforme aux &lt;a href=&#34;https://srv3.olanto.org/download/documentation/myCAT_doc_specs.pdf&#34;&gt;spécifications suivantes&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Cette distribution de myMT contient un très petit corpus de 48 documents qui permet de tester l&amp;rsquo;application dans les six langues suivantes: anglais, français, espagnol, russe, arabe et chinois. Ces documents sont organisés en trois collections: ONU (UNO), OMPI (WIPO) et OMC (WTO). Ce sont tous des documents publics qui ont été téléchargés depuis le site respectif de ces organisations.&lt;/p&gt;</description>
     </item>
@@ -905,9 +907,9 @@ La procédure permettant d&amp;rsquo;effectuer une installation classique de myP
 
 &lt;p&gt;User: demo Password:demo (% est le caractère jocker)&lt;/p&gt;
 
-&lt;p&gt;La démo (en anglais) est valable au: &lt;a href=&#34;http://srv3.olanto.org/myTerm&#34;&gt;English&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La démo (en anglais) est valable au: &lt;a href=&#34;https://srv3.olanto.org/myTerm&#34;&gt;English&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;La démo (en français) est valable au:  &lt;a href=&#34;http://srv3.olanto.org/myTerm?lang=fr&#34;&gt;French&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La démo (en français) est valable au:  &lt;a href=&#34;https://srv3.olanto.org/myTerm?lang=fr&#34;&gt;French&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;L&amp;rsquo;interface de myTerm est complètement adaptable, nous avons un mécanisme dynamique pour l&amp;rsquo;internationalisation des interfaces. Actuellement nous avons traduit l&amp;rsquo;interface en 2 langues (en, fr). Si vous souhaitez rajouter une autre langue n&amp;rsquo;hésitez pas à nous contacter.&lt;/p&gt;
 
@@ -924,13 +926,13 @@ La procédure permettant d&amp;rsquo;effectuer une installation classique de myP
 &lt;p&gt;myTerm 1.0 pour Windows, version 64-bit
 (testé sur Windows 7 et Windows 2008 Server)&lt;/p&gt;
 
-&lt;p&gt;Les fichiers d&amp;rsquo;installation de myTerm peuvent être téléchargé &lt;a href=&#34;http://srv3.olanto.org/download/myTERM/update-1.1/MYTERM.zip&#34;&gt;ici&lt;/a&gt; (97 Mb).&lt;/p&gt;
+&lt;p&gt;Les fichiers d&amp;rsquo;installation de myTerm peuvent être téléchargé &lt;a href=&#34;https://srv3.olanto.org/download/myTERM/update-1.1/MYTERM.zip&#34;&gt;ici&lt;/a&gt; (97 Mb).&lt;/p&gt;
 
 &lt;p&gt;SHA1 key:b1c60fce4f869b2bb7072383604f08f4f353dbaf&lt;/p&gt;
 
 &lt;p&gt;Outils&lt;/p&gt;
 
-&lt;p&gt;L&amp;rsquo;outil mySQL Server56 est a télécharger &lt;a href=&#34;http://srv3.olanto.org/download/myTERM/prereq_mysql56.zip&#34;&gt;ici&lt;/a&gt; (247 Mb). Please use only these distribution of the applications so as to make sure you have the required version.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;outil mySQL Server56 est a télécharger &lt;a href=&#34;https://srv3.olanto.org/download/myTERM/prereq_mysql56.zip&#34;&gt;ici&lt;/a&gt; (247 Mb). Please use only these distribution of the applications so as to make sure you have the required version.&lt;/p&gt;
 
 &lt;p&gt;SHA1 key: 7d3d4eff94ac5d8f16a0eb7a9b7c98b05bb9df20&lt;/p&gt;
 
@@ -940,9 +942,9 @@ La procédure permettant d&amp;rsquo;effectuer une installation classique de myP
 
 &lt;p&gt;myTerm pour Windows:&lt;/p&gt;
 
-&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myCAT sur un serveur dédié équipé de Windows est décrite &lt;a href=&#34;http://srv3.olanto.org/download/documentation/myTerm_v1.0_install.pdf&#34;&gt;ici&lt;/a&gt;..&lt;/p&gt;
+&lt;p&gt;La procédure permettant d&amp;rsquo;effectuer une installation classique de myCAT sur un serveur dédié équipé de Windows est décrite &lt;a href=&#34;https://srv3.olanto.org/download/documentation/myTerm_v1.0_install.pdf&#34;&gt;ici&lt;/a&gt;..&lt;/p&gt;
 
-&lt;p&gt;Un document décrivant l&amp;rsquo;interface le workflow &lt;a href=&#34;http://srv3.olanto.org/download/documentation/myTerm_v1.0_userGuide.pdf&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Un document décrivant l&amp;rsquo;interface le workflow &lt;a href=&#34;https://srv3.olanto.org/download/documentation/myTerm_v1.0_userGuide.pdf&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;spécifications-du-serveur&#34;&gt;Spécifications du serveur&lt;/h3&gt;
 
